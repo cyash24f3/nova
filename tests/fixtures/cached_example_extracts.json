@@ -1,0 +1,560 @@
+{
+  "invoice": {
+    "invoice_id": "TX-US-2032-5394",
+    "contract_id": "TBX-US-EXP-E60",
+    "invoice_date": "2032-01-02",
+    "due_date": "2032-02-16",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Air freight",
+        "awb": "TE56915687",
+        "pickup_date": "2031-12-25",
+        "lane": "USE2-INE2",
+        "quantity": "241",
+        "quantity_unit": "kg",
+        "rate": "6.69",
+        "rate_kind": "per_unit",
+        "billed_amount": "1612.29",
+        "source_page": 1,
+        "source_quote": "1 TE56915687 2031-12-25 Air freight USE2-INE2 241 kg 6.69 1612.29"
+      },
+      {
+        "description": "Fuel surcharge",
+        "awb": "TE56915687",
+        "pickup_date": "2031-12-25",
+        "lane": "USE2-INE2",
+        "quantity": "1612.29",
+        "quantity_unit": null,
+        "rate": "20.16",
+        "rate_kind": "percentage",
+        "billed_amount": "325.04",
+        "source_page": 1,
+        "source_quote": "2 TE56915687 2031-12-25 Fuel surcharge USE2-INE2 1612.29 20.16% 325.04"
+      },
+      {
+        "description": "Security surcharge",
+        "awb": "TE56915687",
+        "pickup_date": "2031-12-25",
+        "lane": "USE2-INE2",
+        "quantity": "241",
+        "quantity_unit": "kg",
+        "rate": "0.15",
+        "rate_kind": "per_unit",
+        "billed_amount": "36.15",
+        "source_page": 1,
+        "source_quote": "3 TE56915687 2031-12-25 Security surcharge USE2-INE2 241 kg 0.15 36.15"
+      },
+      {
+        "description": "Delivery fee",
+        "awb": "TE56915687",
+        "pickup_date": "2031-12-25",
+        "lane": "USE2-INE2",
+        "quantity": "1",
+        "quantity_unit": "shpt",
+        "rate": "121.81",
+        "rate_kind": "per_unit",
+        "billed_amount": "121.81",
+        "source_page": 1,
+        "source_quote": "4 TE56915687 2031-12-25 Delivery fee USE2-INE2 1 shpt 121.81 121.81"
+      }
+    ]
+  },
+  "contract": {
+    "contract_id": "TBX-US-EXP-E60",
+    "effective_date": "2031-12-17",
+    "expiry_date": "2032-12-16",
+    "pricing_date_basis": "pickup_date",
+    "freight_rates": [
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2031-12-17",
+        "valid_to": "2032-06-16",
+        "weight_min_kg": "0",
+        "weight_max_kg": "44.5",
+        "rate_per_kg": "7.73",
+        "minimum_charge": "58.00",
+        "continues_after_period": false,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P1: pickups 2031-12-17 to 2032-06-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 0-44.5 kg 7.73 7.93"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2032-06-17",
+        "valid_to": "2032-12-16",
+        "weight_min_kg": "0",
+        "weight_max_kg": "44.5",
+        "rate_per_kg": "7.93",
+        "minimum_charge": "58.00",
+        "continues_after_period": true,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P2: pickups 2032-06-17 to 2032-12-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 0-44.5 kg 7.73 7.93"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          },
+          {
+            "source_page": 3,
+            "source_quote": "3.1 Rates. Services are charged at the rates in Annex A (express air). Period 2 rates continue to apply after month 12 of the term\n(including any renewal or extension) until an amendment replaces them."
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2031-12-17",
+        "valid_to": "2032-06-16",
+        "weight_min_kg": "45",
+        "weight_max_kg": "99.5",
+        "rate_per_kg": "6.81",
+        "minimum_charge": "58.00",
+        "continues_after_period": false,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P1: pickups 2031-12-17 to 2032-06-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 45-99.5 kg 6.81 6.99"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2032-06-17",
+        "valid_to": "2032-12-16",
+        "weight_min_kg": "45",
+        "weight_max_kg": "99.5",
+        "rate_per_kg": "6.99",
+        "minimum_charge": "58.00",
+        "continues_after_period": true,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P2: pickups 2032-06-17 to 2032-12-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 45-99.5 kg 6.81 6.99"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          },
+          {
+            "source_page": 3,
+            "source_quote": "3.1 Rates. Services are charged at the rates in Annex A (express air). Period 2 rates continue to apply after month 12 of the term\n(including any renewal or extension) until an amendment replaces them."
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2031-12-17",
+        "valid_to": "2032-06-16",
+        "weight_min_kg": "100",
+        "weight_max_kg": "299.5",
+        "rate_per_kg": "6.01",
+        "minimum_charge": "58.00",
+        "continues_after_period": false,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P1: pickups 2031-12-17 to 2032-06-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 100-299.5 kg 6.01 6.16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2032-06-17",
+        "valid_to": "2032-12-16",
+        "weight_min_kg": "100",
+        "weight_max_kg": "299.5",
+        "rate_per_kg": "6.16",
+        "minimum_charge": "58.00",
+        "continues_after_period": true,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P2: pickups 2032-06-17 to 2032-12-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 100-299.5 kg 6.01 6.16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          },
+          {
+            "source_page": 3,
+            "source_quote": "3.1 Rates. Services are charged at the rates in Annex A (express air). Period 2 rates continue to apply after month 12 of the term\n(including any renewal or extension) until an amendment replaces them."
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2031-12-17",
+        "valid_to": "2032-06-16",
+        "weight_min_kg": "300",
+        "weight_max_kg": null,
+        "rate_per_kg": "5.29",
+        "minimum_charge": "58.00",
+        "continues_after_period": false,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P1: pickups 2031-12-17 to 2032-06-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 300+ kg 5.29 5.43"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          }
+        ],
+        "all_weights": false
+      },
+      {
+        "lane": "USE2-INE2",
+        "currency": "USD",
+        "valid_from": "2032-06-17",
+        "valid_to": "2032-12-16",
+        "weight_min_kg": "300",
+        "weight_max_kg": null,
+        "rate_per_kg": "5.43",
+        "minimum_charge": "58.00",
+        "continues_after_period": true,
+        "evidence": [
+          {
+            "source_page": 8,
+            "source_quote": "Annex A: Express rates (USD per chargeable kg; minimum charge per shipment)"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "Period P2: pickups 2032-06-17 to 2032-12-16"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 300+ kg 5.29 5.43"
+          },
+          {
+            "source_page": 8,
+            "source_quote": "USE2-INE2 minimum charge 58.00 58.00"
+          },
+          {
+            "source_page": 3,
+            "source_quote": "3.1 Rates. Services are charged at the rates in Annex A (express air). Period 2 rates continue to apply after month 12 of the term\n(including any renewal or extension) until an amendment replaces them."
+          }
+        ],
+        "all_weights": false
+      }
+    ],
+    "fuel_terms": {
+      "date_basis": "pickup_date",
+      "charge_base": "base_freight_only",
+      "monthly_rates": [
+        {
+          "month": "2031-12",
+          "percentage": "20.16",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2031-12 20.16%"
+            }
+          ]
+        },
+        {
+          "month": "2032-01",
+          "percentage": "22.00",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-01 22.00%"
+            }
+          ]
+        },
+        {
+          "month": "2032-02",
+          "percentage": "24.07",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-02 24.07%"
+            }
+          ]
+        },
+        {
+          "month": "2032-03",
+          "percentage": "25.64",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-03 25.64%"
+            }
+          ]
+        },
+        {
+          "month": "2032-04",
+          "percentage": "25.99",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-04 25.99%"
+            }
+          ]
+        },
+        {
+          "month": "2032-05",
+          "percentage": "24.27",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-05 24.27%"
+            }
+          ]
+        },
+        {
+          "month": "2032-06",
+          "percentage": "26.18",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-06 26.18%"
+            }
+          ]
+        },
+        {
+          "month": "2032-07",
+          "percentage": "24.45",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-07 24.45%"
+            }
+          ]
+        },
+        {
+          "month": "2032-08",
+          "percentage": "25.77",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-08 25.77%"
+            }
+          ]
+        },
+        {
+          "month": "2032-09",
+          "percentage": "24.94",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-09 24.94%"
+            }
+          ]
+        },
+        {
+          "month": "2032-10",
+          "percentage": "22.57",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-10 22.57%"
+            }
+          ]
+        },
+        {
+          "month": "2032-11",
+          "percentage": "24.43",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-11 24.43%"
+            }
+          ]
+        },
+        {
+          "month": "2032-12",
+          "percentage": "26.03",
+          "evidence": [
+            {
+              "source_page": 9,
+              "source_quote": "2032-12 26.03%"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source_page": 3,
+          "source_quote": "4.1 Fuel surcharge. Fuel surcharge is the Annex C percentage for the month of the Pickup Date, applied to the base freight\ncharge only. It does not apply to Annex D accessorials or the security surcharge."
+        },
+        {
+          "source_page": 9,
+          "source_quote": "Annex C: Fuel surcharge by month of Pickup Date (percentage of base freight)"
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "source_page": 1,
+        "source_quote": "Agreement No. TBX-US-EXP-E60"
+      },
+      {
+        "source_page": 3,
+        "source_quote": "2.1 Effective date. This Agreement takes effect on 2031-12-17 (the Effective Date)."
+      },
+      {
+        "source_page": 3,
+        "source_quote": "2.2 Initial term. The initial term is 12 months, ending on 2032-12-16."
+      },
+      {
+        "source_page": 3,
+        "source_quote": "3.2 Pricing date. Each shipment is priced at the rates, surcharges and fees in force on its Pickup Date."
+      }
+    ]
+  },
+  "tracking": {
+    "events": [
+      {
+        "awb": "TE56915687",
+        "event": "PICKED_UP",
+        "event_date": "2031-12-25",
+        "station": "USE2",
+        "reason_code": null,
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "TE56915687 | PICKED_UP | 2031-12-25 | USE2 | -"
+          }
+        ]
+      },
+      {
+        "awb": "TE56915687",
+        "event": "DEPARTED",
+        "event_date": "2031-12-26",
+        "station": "USE2",
+        "reason_code": null,
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "TE56915687 | DEPARTED | 2031-12-26 | USE2 | -"
+          }
+        ]
+      },
+      {
+        "awb": "TE56915687",
+        "event": "ARRIVED_FACILITY",
+        "event_date": "2031-12-29",
+        "station": "INE2",
+        "reason_code": null,
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "TE56915687 | ARRIVED_FACILITY | 2031-12-29 | INE2 | -"
+          }
+        ]
+      },
+      {
+        "awb": "TE56915687",
+        "event": "OUT_FOR_DELIVERY",
+        "event_date": "2031-12-30",
+        "station": "INE2",
+        "reason_code": null,
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "TE56915687 | OUT_FOR_DELIVERY | 2031-12-30 | INE2 | -"
+          }
+        ]
+      },
+      {
+        "awb": "TE56915687",
+        "event": "DELIVERED",
+        "event_date": "2031-12-30",
+        "station": "INE2",
+        "reason_code": null,
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "TE56915687 | DELIVERED | 2031-12-30 | INE2 | -"
+          }
+        ]
+      }
+    ]
+  }
+}

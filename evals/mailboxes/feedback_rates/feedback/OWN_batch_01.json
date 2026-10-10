@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "world": "OWN",
+  "after_batch": "batch_01",
+  "decided_at": "2034-02-10T09:00:00Z",
+  "decided_by": {
+    "name": "AP Reviewer",
+    "role": "AP Manager",
+    "entity": "Fresh Retail"
+  },
+  "items": [
+    {
+      "item_id": "fb-rate",
+      "solicited": false,
+      "finding_key": {
+        "invoice_id": "RATE-100",
+        "class": "overcharge"
+      },
+      "decision": "close",
+      "fact": {
+        "type": "rate_accepted",
+        "subject": {
+          "contract_id": "C-71",
+          "lane": "NORTH-SOUTH"
+        },
+        "value": {
+          "source": "rate notice",
+          "sent_by": "Bo Example",
+          "sent_on": "2034-01-06",
+          "effective_from": "2034-01-01",
+          "effective_to": "2034-12-31"
+        },
+        "evidence": "AP reviewed the carrier confirmation."
+      },
+      "scope": {
+        "kind": "standing",
+        "applies_to": {
+          "contract_id": "C-71",
+          "lane": "NORTH-SOUTH"
+        },
+        "valid_from": "2034-01-01",
+        "valid_to": null
+      },
+      "note": "Applies only within the stated scope."
+    }
+  ]
+}

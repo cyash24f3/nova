@@ -1,0 +1,42 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Thu, 05 Jan 2034 12:00:00 +0000
+Subject: Invoice AUTH-RATE-100
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6035266175946892840=="
+
+--===============6035266175946892840==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice AUTH-RATE-100.
+
+--===============6035266175946892840==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="AUTH-RATE-100.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzODAvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjarZLNTsMwEITveYo8QfD+2xLigMSFG1JuiAM06Q0hkHh/xk5bFVzBBVWKHTf77cx4h/fhdh5o
+TPjRyDbmVCZTHefX8Wr39vkx5nHej4/XWnwN970XFzdOSmb4LvNijL2q8SIkSdLN03z/nZgmFtLo
+mQLeGhrs5BIKqoASQj8ZUdJUKJc/Zbk6hdadMMSIKIBJqD2tw2aaHDU9VsN+wTmeLLnDBU9cJF8w
+GhYMm+YrjBZOCE9UO4DzVDLxBZ87OFyrkNjVmOC4yUJwq2sTaiFgs5dIkFxqtNvXJp7rqS+1f4uZ
+DMvh39Sye4HCdG649dk1/uHNCKFQJYCm1UU7rZ5KpbY3/lZP6LmP1rXzajK55+i94ra2amCsqQUf
+at1bgsUDZYd+yvrMi9Kx5sKtH3zqqvvKayMr2G/ju1VhcLedv6DJdua8Hk8RbDfWoTqJOffy+SRf
+MM9Y6yw5TqKNgdfrIKxxiul/TPhRLi9ntuzcTjNxNw8PwxdpMeVBCmVuZHN0cmVhbQplbmRvYmoK
+CnhyZWYKMCA3CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA0MiAwMDAwMCBuIAowMDAwMDAw
+MTIwIDAwMDAwIG4gCjAwMDAwMDAxNzIgMDAwMDAgbiAKMDAwMDAwMDIxMyAwMDAwMCBuIAowMDAw
+MDAwMzIwIDAwMDAwIG4gCjAwMDAwMDA0MDcgMDAwMDAgbiAKCnRyYWlsZXIKPDwvU2l6ZSA3L1Jv
+b3QgMSAwIFIvSURbPDI2QzM5QTA3QzNCNTA2MUEyMzIzQzNCNjY3QzI5RjI1Pjw2OTMyNDRCQzcw
+RTBFMDExNDFBMTk1MDE1QzIzN0MzMz5dPj4Kc3RhcnR4cmVmCjg1NgolJUVPRgo=
+
+--===============6035266175946892840==--

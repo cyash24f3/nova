@@ -1,0 +1,19 @@
+name: expiry outside 61 days
+mailbox: evals/mailboxes/expiry_boundary
+as_of: '2034-10-31'
+mode: supervised
+expect:
+  key:
+    class: expiry
+    contract_id: C-71
+  action: none
+  amount_usd: null
+  verdict: no_finding
+checks:
+- key:
+    class: expiry
+    contract_id: C-71
+  action: none
+  amount_usd: null
+  verdict: no_finding
+why: The expiry alert includes day 60 and excludes day 61.

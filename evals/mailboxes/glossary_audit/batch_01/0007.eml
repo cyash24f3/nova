@@ -1,0 +1,42 @@
+From: billing@glassharbor.example
+To: accounts@cedargrove.example
+Date: Thu, 03 Jan 2036 12:00:00 +0000
+Subject: Invoice PRINCIPAL-100
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7461103615880818816=="
+
+--===============7461103615880818816==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice PRINCIPAL-100.
+
+--===============7461103615880818816==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="PRINCIPAL-100.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzNjUvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLPSsQwEMbvfYo8QZzM3wyIB8GLN6E38bK1exNR8P2dpF3ZNQtLoZ0mM7/M902mr+lxnkqC
+eEpCSRU8C3OaP9Ld8vnznWqaj+n1nk0XLUZGCFwjQkU9GiIIR1x0jT1oK8aRsRgr4/rwNj9f0iEj
+FbaR70FQPaorqQQVBNl5ZWIX4MILvlMhIPjPNIfspfqIpMCttrVHvS3jGhgnHCC1ZAXlm30ph3Zu
+EWF0Q6QBBCr9TQPWMKNTHbFschMnA04xey14TatJWI8quoZWDwNFiHkgCGXValcIS0hcWye2hFPN
+u95XG22MsnUqRsFGdYPo2Zu7e3aNwbfdyOciYfW2LtBtO8QenGvtNUsn739Swo92iYIbE/N9tanx
+Nrn+hxf1Rd/bqa1mUMmcSRQHkWHshiIWpvYNw7p1f8duEqUb2Qyx/bh+dQROhCvj2kUHuQgJR7ax
+9GirEIIt0sOJeqo5u9lP8/Qy/QKwqM7oCmVuZHN0cmVhbQplbmRvYmoKCnhyZWYKMCA3CjAwMDAw
+MDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA0MiAwMDAwMCBuIAowMDAwMDAwMTIwIDAwMDAwIG4gCjAw
+MDAwMDAxNzIgMDAwMDAgbiAKMDAwMDAwMDIxMyAwMDAwMCBuIAowMDAwMDAwMzIwIDAwMDAwIG4g
+CjAwMDAwMDA0MDcgMDAwMDAgbiAKCnRyYWlsZXIKPDwvU2l6ZSA3L1Jvb3QgMSAwIFIvSURbPEMy
+OEUxNzc2MUFDMzhCMDI0QTFFQzI4RTc1QzM5QTI5Pjw5QTk4MkI2M0M1N0VFRENBRURGRTQwRTk1
+ODgwREQxQj5dPj4Kc3RhcnR4cmVmCjg0MQolJUVPRgo=
+
+--===============7461103615880818816==--

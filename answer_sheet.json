@@ -1,0 +1,126 @@
+{
+ "sheet_version": "1.0",
+ "as_of": "2031-02-28",
+ "mode": "supervised",
+ "source": "exam_report.json",
+ "totals": {
+  "total_overpayment": "3847.70",
+  "cashback_owed": "4307.34",
+  "late_fees_avoided": "10.29",
+  "total_savings": "8165.33"
+ },
+ "classes": {
+  "overcharge": {
+   "count": 3,
+   "amount_usd": "485.48",
+   "ids": [
+    "CDI-3031-0306",
+    "CDU-3051266",
+    "CDU-3051297"
+   ],
+   "amounts_by_id": {
+    "CDI-3031-0306": "85.46",
+    "CDU-3051266": "244.37",
+    "CDU-3051297": "155.65"
+   }
+  },
+  "duplicate": {
+   "count": 1,
+   "amount_usd": "3235.24",
+   "ids": [
+    "CDU-3051273"
+   ],
+   "amounts_by_id": {
+    "CDU-3051273": "3235.24"
+   }
+  },
+  "waived_but_billed": {
+   "count": 2,
+   "amount_usd": "105.40",
+   "ids": [
+    "CDU-3051259",
+    "CDU-3051323"
+   ],
+   "amounts_by_id": {
+    "CDU-3051259": "52.70",
+    "CDU-3051323": "52.70"
+   }
+  },
+  "late_fee_not_owed": {
+   "count": 1,
+   "amount_usd": "21.58",
+   "ids": [
+    "CDU-3051277"
+   ],
+   "amounts_by_id": {
+    "CDU-3051277": "21.58"
+   }
+  },
+  "cashback": {
+   "count": 1,
+   "amount_usd": "4307.34",
+   "ids": [
+    "CDA-US-EXP-E91/2030-Q3/rebate"
+   ],
+   "amounts_by_id": {
+    "CDA-US-EXP-E91/2030-Q3/rebate": "4307.34"
+   }
+  },
+  "late_fee_risk": {
+   "count": 1,
+   "amount_usd": "10.29",
+   "ids": [
+    "CDU-3151571"
+   ],
+   "amounts_by_id": {
+    "CDU-3151571": "10.29"
+   },
+   "deadlines_by_id": {
+    "CDU-3151571": "2031-03-10"
+   }
+  },
+  "expiry": {
+   "count": 1,
+   "amount_usd": null,
+   "ids": [
+    "CDA-US-EXP-E91"
+   ],
+   "amounts_by_id": {},
+   "deadlines_by_id": {
+    "CDA-US-EXP-E91": "2031-04-01"
+   }
+  }
+ },
+ "conflicts": [
+  {
+   "id": "CDU-3051302",
+   "class": "overcharge",
+   "amount_range": [
+    "0.00",
+    "61.93"
+   ],
+   "sources": [
+    "batch_02/0005.eml#CDU-3051302.pdf",
+    "batch_02/0022.eml#tracking-2030-09-01.xlsx",
+    "batch_01/0003.eml#MSA-CDA-US-EXP-E91.pdf",
+    "batch_01/0003.eml",
+    "batch_01/0004.eml",
+    "batch_01/0004.eml#CDA-US-EXP-E91-AMD-1.pdf",
+    "batch_02/0001.eml"
+   ]
+  }
+ ],
+ "cannot_determine": [
+  {
+   "id": "CDU-3051286",
+   "class": "overcharge",
+   "missing_doc": "Annex A rev 2",
+   "holder": {
+    "party": "Caldrith Air Logistics Inc.",
+    "person": "Joaquin Rathbone",
+    "role": "rates"
+   }
+  }
+ ],
+ "mailbox": "exam"
+}

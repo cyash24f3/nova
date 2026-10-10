@@ -1,0 +1,54 @@
+name: feedback authority
+mailbox: evals/mailboxes/feedback_authority
+as_of: '2034-02-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: AUTH-500
+  verdict: finding
+  amount_usd: '2.00'
+  action: draft:dispute
+  deadline: null
+checks:
+- key:
+    class: overcharge
+    invoice_id: AUTH-500
+  verdict: finding
+  amount_usd: '2.00'
+  action: draft:dispute
+  deadline: null
+- key:
+    class: waived_but_billed
+    invoice_id: AUTH-100
+  verdict: finding
+  amount_usd: '10.00'
+  action: draft:dispute
+  deadline: null
+  learned_at:
+    feedback_item_id: fb-authority
+    batch: batch_01
+- key:
+    class: waived_but_billed
+    invoice_id: AUTH-200
+  verdict: finding
+  amount_usd: '10.00'
+  action: draft:dispute
+  deadline: null
+  learned_at:
+    feedback_item_id: fb-authority
+    batch: batch_01
+- key:
+    class: waived_but_billed
+    invoice_id: AUTH-400
+  verdict: finding
+  amount_usd: '10.00'
+  action: draft:dispute
+  deadline: null
+  learned_at:
+    feedback_item_id: fb-april
+    batch: batch_01
+why: Human decisions persist, carry learned_at, and affect only their explicit key/person/category/lane/month
+  scope.
+feedback:
+  batch_01: evals/mailboxes/feedback_authority/feedback/OWN_batch_01.json

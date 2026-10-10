@@ -1,0 +1,2151 @@
+{
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "extractions": {
+    "08fc353625957d2f8895b16e048e78ff1f4db1b9aaf44f8e9139778a29644d12": {
+      "contract_id": "TBX-US-EXP-E90",
+      "instrument_id": "TBX-US-EXP-E90/AMD-1",
+      "sent_by": "Farid Underhill",
+      "sent_on": "2032-03-16",
+      "binding_state": "unknown",
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Amendment reference TBX-US-EXP-E90/AMD-1"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Master Services Agreement (Express Air) TBX-US-EXP-E90"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Signed for and on behalf of Quillmere Pharma Inc. (the Shipper)"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Signed for and on behalf of Tarrowby Express Inc. (the Carrier)"
+        },
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "From: Farid Underhill <farid.underhill@tarrowby.example>"
+        },
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "Date: 2032-03-16T16:01:00Z"
+        },
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "Attached is Amendment No. 1 to TBX-US-EXP-E90, signed by both parties."
+        }
+      ]
+    },
+    "0fc1f6dccba98c9cbf755f4bd4df42230bfc1d7ab57cdcf0383b870b5a7be980": {
+      "contract_id": "TBX-US-EXP-E90",
+      "binding_state": "executed",
+      "changes_term": false,
+      "effective_date": "2032-02-28",
+      "expiry_date": "2033-02-27",
+      "auto_renews": false,
+      "renewal_months": null,
+      "notice_days": null,
+      "notice_deadline": null,
+      "extension_policy": "jointly_signed",
+      "notice_sent_date": null,
+      "notice_for_expiry_date": null,
+      "contacts": [
+        {
+          "category": "notices",
+          "party": "carrier",
+          "person": "Farid Underhill",
+          "email": "farid.underhill@tarrowby.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Farid Underhill, Key Account Manager, TBX-US: notices, billing_disputes <farid.underhill@tarrowby.example>"
+            }
+          ]
+        },
+        {
+          "category": "billing_disputes",
+          "party": "carrier",
+          "person": "Farid Underhill",
+          "email": "farid.underhill@tarrowby.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Farid Underhill, Key Account Manager, TBX-US: notices, billing_disputes <farid.underhill@tarrowby.example>"
+            }
+          ]
+        },
+        {
+          "category": "rates",
+          "party": "carrier",
+          "person": "Isolde Zeller",
+          "email": "isolde.zeller@tarrowby.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Isolde Zeller, Pricing Manager, TBX-US: rates <isolde.zeller@tarrowby.example>"
+            }
+          ]
+        },
+        {
+          "category": "waivers",
+          "party": "carrier",
+          "person": "Ravi Fennimore",
+          "email": "ravi.fennimore@tarrowby.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Ravi Fennimore, Customer Finance Lead, TBX-US: waivers, payment_terms <ravi.fennimore@tarrowby.example>"
+            }
+          ]
+        },
+        {
+          "category": "payment_terms",
+          "party": "carrier",
+          "person": "Ravi Fennimore",
+          "email": "ravi.fennimore@tarrowby.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Ravi Fennimore, Customer Finance Lead, TBX-US: waivers, payment_terms <ravi.fennimore@tarrowby.example>"
+            }
+          ]
+        },
+        {
+          "category": "treasury",
+          "party": "carrier",
+          "person": "Sunil Vanterpool",
+          "email": "sunil.vanterpool@tarrowby.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Sunil Vanterpool, Treasury Analyst, TBX-US: treasury <sunil.vanterpool@tarrowby.example>"
+            }
+          ]
+        },
+        {
+          "category": "notices",
+          "party": "shipper",
+          "person": "Nadia Delacroix",
+          "email": "nadia.delacroix@quillmere.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Nadia Delacroix, AP Manager, QMP-US: notices, payment_terms, billing_disputes <nadia.delacroix@quillmere.example>"
+            }
+          ]
+        },
+        {
+          "category": "payment_terms",
+          "party": "shipper",
+          "person": "Nadia Delacroix",
+          "email": "nadia.delacroix@quillmere.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Nadia Delacroix, AP Manager, QMP-US: notices, payment_terms, billing_disputes <nadia.delacroix@quillmere.example>"
+            }
+          ]
+        },
+        {
+          "category": "billing_disputes",
+          "party": "shipper",
+          "person": "Nadia Delacroix",
+          "email": "nadia.delacroix@quillmere.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Nadia Delacroix, AP Manager, QMP-US: notices, payment_terms, billing_disputes <nadia.delacroix@quillmere.example>"
+            }
+          ]
+        },
+        {
+          "category": "rates",
+          "party": "shipper",
+          "person": "Pallavi Thackeray",
+          "email": "pallavi.thackeray@quillmere.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 11,
+              "quote": "Pallavi Thackeray, Logistics Director, QMP-US: rates <pallavi.thackeray@quillmere.example>"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 3,
+          "quote": "2.1 Effective date. This Agreement takes effect on 2032-02-28 (the Effective Date)."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 3,
+          "quote": "2.2 Initial term. The initial term is 12 months, ending on 2033-02-27."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 3,
+          "quote": "This Agreement does not renew automatically. It ends at the end of the initial term unless extended under"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 3,
+          "quote": "2.4 Extension. The term may be extended only by an instrument signed by both parties."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 7,
+          "quote": "Signed for and on behalf of Quillmere Pharma Inc. (the Shipper)"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 7,
+          "quote": "Signed for and on behalf of Tarrowby Express Inc. (the Carrier)"
+        },
+        {
+          "doc": "batch_01/0002.eml",
+          "page": 1,
+          "quote": "Attached is the executed Master Services Agreement (Express Air) TBX-US-EXP-E90, signed by both parties."
+        }
+      ]
+    },
+    "1a0dd05d937dacbd1fec0b7b7502617f8d7baddebf0698131f037c331c897940": {
+      "lines": [
+        {
+          "line_index": 1,
+          "code": "FRT",
+          "category": "base_freight",
+          "shipment_id": "TE92942629",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_02/0002.eml#TX-US-2032-5166.pdf",
+              "page": 1,
+              "quote": "1 TE92942629 2032-06-17 Air freight USW1-USC3 113 kg 3.03 342.39"
+            }
+          ]
+        },
+        {
+          "line_index": 2,
+          "code": "FUEL",
+          "category": "fuel",
+          "shipment_id": "TE92942629",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_02/0002.eml#TX-US-2032-5166.pdf",
+              "page": 1,
+              "quote": "2 TE92942629 2032-06-17 Fuel surcharge USW1-USC3 342.39 23.14% 79.23"
+            }
+          ]
+        },
+        {
+          "line_index": 3,
+          "code": "SEC",
+          "category": "security",
+          "shipment_id": "TE92942629",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_02/0002.eml#TX-US-2032-5166.pdf",
+              "page": 1,
+              "quote": "3 TE92942629 2032-06-17 Security surcharge USW1-USC3 113 kg 0.24 27.12"
+            }
+          ]
+        },
+        {
+          "line_index": 4,
+          "code": "DLV",
+          "category": "delivery",
+          "shipment_id": "TE92942629",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_02/0002.eml#TX-US-2032-5166.pdf",
+              "page": 1,
+              "quote": "4 TE92942629 2032-06-17 Delivery fee USW1-USC3 1 shpt 131.19 131.19"
+            }
+          ]
+        }
+      ]
+    },
+    "2bf3b4c09ac1b5985a1ef4ec2da9fdcf072f934c57aead00b7572f20c0a800eb": {
+      "kind": "invoice",
+      "content_status": "original",
+      "contract_ids": [
+        "TBX-US-EXP-E90"
+      ],
+      "invoice_ids": [
+        "TX-US-2032-5166"
+      ],
+      "awbs": [
+        "TE92942629"
+      ],
+      "lanes": [
+        "USW1-USC3"
+      ],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_02/0002.eml#TX-US-2032-5166.pdf",
+          "page": 1,
+          "quote": "INVOICE TX-US-2032-5166 Invoice date 2032-06-26 Due date 2032-08-25"
+        },
+        {
+          "doc": "batch_02/0002.eml#TX-US-2032-5166.pdf",
+          "page": 1,
+          "quote": "1 TE92942629 2032-06-17 Air freight USW1-USC3 113 kg 3.03 342.39"
+        }
+      ]
+    },
+    "449fae525c87214da93f437d65f1e1f1c7180e08e6ca26b487fed7cc55ed114e": {
+      "kind": "rate_notice",
+      "content_status": "original",
+      "contract_ids": [],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "USW1-USC3"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2032-06-05",
+      "evidence": [
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3, effective 2032-06-05 to 2032-08-04:"
+        },
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "USW1-USC3 0-44.5 kg: 3.33 USD"
+        }
+      ]
+    },
+    "63ae0474f18492d49491574d0936455a0bbbbe5d186f7789db7711b0a4d2e7b5": {
+      "kind": "other",
+      "content_status": "original",
+      "contract_ids": [
+        "TBX-US-EXP-E90"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": "2032-02-28",
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml",
+          "page": 1,
+          "quote": "Attached is the executed Master Services Agreement (Express Air) TBX-US-EXP-E90, signed by both parties."
+        }
+      ]
+    },
+    "707f1529826975bd0c22f48d62a37c894969b4a132669558259de907e9764db2": {
+      "contract_id": "TBX-US-EXP-E90",
+      "carrier_name": "Tarrowby Express Inc.",
+      "definitions": [
+        {
+          "code": "FRT",
+          "category": "base_freight",
+          "labels": [
+            "Air freight",
+            "Express freight",
+            "Freight charge"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code FRT: Air freight; also billed as: Express freight, Freight charge"
+            }
+          ]
+        },
+        {
+          "code": "FUEL",
+          "category": "fuel",
+          "labels": [
+            "Fuel surcharge",
+            "FSC",
+            "Fuel adj."
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code FUEL: Fuel surcharge; also billed as: FSC, Fuel adj."
+            }
+          ]
+        },
+        {
+          "code": "SEC",
+          "category": "security",
+          "labels": [
+            "Security surcharge",
+            "Screening fee",
+            "Screening fee (adj.)",
+            "Security screening"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code SEC: Security surcharge; also billed as: Screening fee, Screening fee (adj.), Security screening"
+            }
+          ]
+        },
+        {
+          "code": "DG",
+          "category": "dangerous_goods",
+          "labels": [
+            "Dangerous goods fee",
+            "DG handling",
+            "Hazmat handling"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code DG: Dangerous goods fee; also billed as: DG handling, Hazmat handling"
+            }
+          ]
+        },
+        {
+          "code": "DRYICE",
+          "category": "dry_ice",
+          "labels": [
+            "Dry ice handling fee",
+            "Dry ice handling"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code DRYICE: Dry ice handling fee; also billed as: Dry ice handling"
+            }
+          ]
+        },
+        {
+          "code": "STOR",
+          "category": "storage",
+          "labels": [
+            "Storage",
+            "Warehouse storage",
+            "Demurrage"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code STOR: Storage; also billed as: Warehouse storage, Demurrage"
+            }
+          ]
+        },
+        {
+          "code": "DLV",
+          "category": "delivery",
+          "labels": [
+            "Delivery fee",
+            "Door delivery",
+            "Final-mile delivery"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code DLV: Delivery fee; also billed as: Door delivery, Final-mile delivery"
+            }
+          ]
+        },
+        {
+          "code": "CUSTOMS",
+          "category": "customs",
+          "labels": [
+            "Customs hold fee",
+            "Customs examination",
+            "Hold handling"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code CUSTOMS: Customs hold fee; also billed as: Customs examination, Hold handling"
+            }
+          ]
+        },
+        {
+          "code": "ACCT",
+          "category": "account",
+          "labels": [
+            "Monthly account fee",
+            "Account maintenance"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code ACCT: Monthly account fee; also billed as: Account maintenance"
+            }
+          ]
+        },
+        {
+          "code": "SPROG",
+          "category": "programme",
+          "labels": [
+            "Storage programme fee",
+            "Storage programme"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code SPROG: Storage programme fee; also billed as: Storage programme"
+            }
+          ]
+        },
+        {
+          "code": "PPROG",
+          "category": "programme",
+          "labels": [
+            "Pickup programme fee",
+            "Pickup programme"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code PPROG: Pickup programme fee; also billed as: Pickup programme"
+            }
+          ]
+        },
+        {
+          "code": "PEAK",
+          "category": "peak",
+          "labels": [
+            "Peak season surcharge",
+            "PSS"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code PEAK: Peak season surcharge; also billed as: PSS"
+            }
+          ]
+        },
+        {
+          "code": "COST",
+          "category": "cost",
+          "labels": [
+            "Carrier cost",
+            "Linehaul cost pass-through"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code COST: Carrier cost; also billed as: Linehaul cost pass-through"
+            }
+          ]
+        },
+        {
+          "code": "MARGIN",
+          "category": "margin",
+          "labels": [
+            "Handling margin",
+            "Forwarding margin"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code MARGIN: Handling margin; also billed as: Forwarding margin"
+            }
+          ]
+        },
+        {
+          "code": "HDL",
+          "category": "other",
+          "labels": [
+            "Special handling",
+            "Supplementary handling"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code HDL: Special handling; also billed as: Supplementary handling"
+            }
+          ]
+        },
+        {
+          "code": "DUTY",
+          "category": "duty",
+          "labels": [
+            "Import duty (disbursement)",
+            "Duty paid on your behalf"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code DUTY: Import duty (disbursement); also billed as: Duty paid on your behalf"
+            }
+          ]
+        },
+        {
+          "code": "TAX",
+          "category": "tax",
+          "labels": [
+            "Sales tax",
+            "GST"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code TAX: Sales tax; also billed as: GST"
+            }
+          ]
+        },
+        {
+          "code": "LATE",
+          "category": "late_fee",
+          "labels": [
+            "Late payment fee",
+            "Late fee",
+            "Overdue interest"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "Code LATE: Late payment fee; also billed as: Late fee, Overdue interest"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "code": "DG",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "shipment",
+          "rate": "283.74",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "dangerous_goods",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 3,
+              "quote": "Shipments requiring a dangerous goods declaration attract the DG Fee in Annex D, once per shipment."
+            },
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "DG Dangerous goods fee 283.74 USD per shipment"
+            }
+          ]
+        },
+        {
+          "code": "DRYICE",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "shipment",
+          "rate": "40.35",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "dry_ice_only",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 3,
+              "quote": "billed at the Dry Ice Handling Fee in Annex D, once per shipment (not per package or per kg)"
+            },
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "DRYICE Dry ice handling fee 40.35 USD per shipment"
+            }
+          ]
+        },
+        {
+          "code": "SEC",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "kg",
+          "rate": "0.24",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 3,
+              "quote": "Security surcharge is charged per chargeable kg at the Annex D rate."
+            },
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "SEC Security surcharge 0.24 USD per chargeable kg"
+            }
+          ]
+        },
+        {
+          "code": "STOR",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "storage_day",
+          "rate": "59.95",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": 5,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 4,
+              "quote": "Storage days = release date - arrival date (ARRIVED_FACILITY) - 5 free days, minimum 0."
+            },
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "STOR Storage 59.95 USD per storage day"
+            }
+          ]
+        },
+        {
+          "code": "DLV",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "shipment",
+          "rate": "131.19",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "carrier_delivery",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 4,
+              "quote": "The delivery fee is payable only where the Carrier performs delivery to the consignee's address."
+            },
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "DLV Delivery fee 131.19 USD per shipment"
+            }
+          ]
+        },
+        {
+          "code": "CUSTOMS",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "shipment",
+          "rate": "168.77",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "shipper_customs_fault",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 4,
+              "quote": "Customs hold and examination fees are for the Shipper's account, except where the hold results from an error or omission in documents prepared or filed by the Carrier."
+            },
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "CUSTOMS Customs hold fee 168.77 USD per shipment"
+            }
+          ]
+        },
+        {
+          "code": "ACCT",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "month",
+          "rate": "392.42",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "ACCT Monthly account fee 392.42 USD per month"
+            }
+          ]
+        },
+        {
+          "code": "SPROG",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "month",
+          "rate": "475.37",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "SPROG Storage programme fee 475.37 USD per month"
+            }
+          ]
+        },
+        {
+          "code": "PPROG",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": null,
+          "valid_to": null,
+          "continues": false,
+          "unit": "month",
+          "rate": "517.41",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 10,
+              "quote": "PPROG Pickup programme fee 517.41 USD per month"
+            }
+          ]
+        }
+      ],
+      "fx_annex_name": "Annex F",
+      "fx_rows": [],
+      "payment": {
+        "due_days": 60,
+        "monthly_rate": "1.32",
+        "grace_days": 10,
+        "compounds": true,
+        "exclude_disputed": true,
+        "extensions_permitted": true,
+        "evidence": [
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "Invoices are due 60 days after the invoice date."
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "Undisputed amounts unpaid more than 10 days after the due date bear a late fee of 1.32% per month or part"
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "no fee is due if days_late <= 10"
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "charged on principal plus unpaid prior late fees"
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "No late fee accrues on amounts disputed in good faith under clause 13 while the dispute is open."
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "the extended date replaces the due date for clause 10.2."
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 11,
+            "quote": "Ravi Fennimore, Customer Finance Lead, TBX-US: waivers, payment_terms"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 4,
+          "quote": "Invoices are due 60 days after the invoice date."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 4,
+          "quote": "Undisputed amounts unpaid more than 10 days after the due date bear a late fee of 1.32% per month or part"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 4,
+          "quote": "no fee is due if days_late <= 10"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 4,
+          "quote": "charged on principal plus unpaid prior late fees"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 4,
+          "quote": "No late fee accrues on amounts disputed in good faith under clause 13 while the dispute is open."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 4,
+          "quote": "the extended date replaces the due date for clause 10.2."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 11,
+          "quote": "Ravi Fennimore, Customer Finance Lead, TBX-US: waivers, payment_terms"
+        }
+      ]
+    },
+    "709b2ea09009fd301ca43361b67a962967ccc3d73f83d16c1445801d025d5b33": {
+      "contract_id": "TBX-US-EXP-E90",
+      "binding_state": "executed",
+      "changes_term": false,
+      "effective_date": "2032-03-18",
+      "expiry_date": null,
+      "auto_renews": null,
+      "renewal_months": null,
+      "notice_days": null,
+      "notice_deadline": null,
+      "extension_policy": "unknown",
+      "notice_sent_date": null,
+      "notice_for_expiry_date": null,
+      "contacts": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Effective from 2032-03-18"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Annex A rates for the lanes below are deleted and replaced with the following"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "All other terms of the Agreement are unchanged."
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Signed for and on behalf of Quillmere Pharma Inc. (the Shipper)"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Signed for and on behalf of Tarrowby Express Inc. (the Carrier)"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Date: 2032-03-14"
+        },
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "Attached is Amendment No. 1 to TBX-US-EXP-E90, signed by both parties."
+        }
+      ]
+    },
+    "7f4ae25f7421d6605a66f6106ad85c1a0b9d8c34b18becf93c84e6970d1549fc": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "payment_request",
+      "mentioned_invoice_ids": [
+        "TX-US-2032-5166"
+      ],
+      "evidence": [
+        {
+          "doc": "batch_02/0002.eml",
+          "page": 1,
+          "quote": "Kindly process payment by the due date shown."
+        },
+        {
+          "doc": "batch_02/0002.eml",
+          "page": 1,
+          "quote": "Please find attached invoice TX-US-2032-5166 for services under TBX-US-EXP-E90."
+        }
+      ]
+    },
+    "80ca6effe8e9d914df2e99328f5d92e72275aba3eb91f7e7ac10cc8dcbb32115": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": []
+    },
+    "8205f6ecc50288bad7ca9c62abb4043c1f83d26d6ba84ad2938776d3c6344b3f": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": []
+    },
+    "845e7062cd32162064cc8a44492f95b601a2ae89cd879cf06f951a2f967cce18": {
+      "kind": "amendment",
+      "content_status": "original",
+      "contract_ids": [
+        "TBX-US-EXP-E90",
+        "TBX-US-EXP-E90/AMD-1"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "USW1-USC3"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2032-03-18",
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Amendment No. 1 to Master Services Agreement (Express Air) TBX-US-EXP-E90"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "1. Annex A rates for the lanes below are deleted and replaced with the following, for every period, with effect from the effective"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Effective from 2032-03-18"
+        },
+        {
+          "doc": "batch_01/0003.eml#TBX-US-EXP-E90-AMD-1.pdf",
+          "page": 1,
+          "quote": "Executed by duly authorised officers. Schedule 1 governs Authorised Persons for rates, waivers, payment terms and notices."
+        }
+      ]
+    },
+    "922e0090b29f657ebaa74100291e98e4645cc8f1f1632b04c4c70351864d74fa": {
+      "contract_id": "TBX-US-EXP-E90",
+      "spend_categories": [
+        "base_freight",
+        "fuel",
+        "security",
+        "dangerous_goods",
+        "dry_ice",
+        "storage",
+        "delivery",
+        "customs",
+        "account",
+        "programme"
+      ],
+      "spend_codes": [
+        "FRT",
+        "FUEL",
+        "SEC",
+        "DG",
+        "DRYICE",
+        "STOR",
+        "DLV",
+        "CUSTOMS",
+        "ACCT",
+        "SPROG",
+        "PPROG"
+      ],
+      "spend_basis": "billed",
+      "net_charge_credits": true,
+      "excluded_credit_types": [
+        "rebate",
+        "promised_credit"
+      ],
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 3,
+          "quote": "1.1 Qualifying Spend. Qualifying Spend means freight charges (base freight, fuel, security surcharge and Annex D accessorials) on invoices dated in the period, net of all credit notes dated in the period whatever invoice they reference (rebate and improvement credits excepted)."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "Code FRT: Air freight; also billed as: Express freight, Freight charge"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "Code FUEL: Fuel surcharge; also billed as: FSC, Fuel adj."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "SEC Security surcharge 0.24 USD per chargeable kg"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "DG Dangerous goods fee 283.74 USD per shipment"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "DRYICE Dry ice handling fee 40.35 USD per shipment"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "STOR Storage 59.95 USD per storage day"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "DLV Delivery fee 131.19 USD per shipment"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "CUSTOMS Customs hold fee 168.77 USD per shipment"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "ACCT Monthly account fee 392.42 USD per month"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "SPROG Storage programme fee 475.37 USD per month"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 10,
+          "quote": "PPROG Pickup programme fee 517.41 USD per month"
+        }
+      ],
+      "rebate": {
+        "tiers": [
+          {
+            "threshold_usd": "61000.00",
+            "percentage": "5",
+            "evidence": [
+              {
+                "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+                "page": 4,
+                "quote": "QS >= USD 61,000.00: 5%"
+              }
+            ]
+          },
+          {
+            "threshold_usd": "99000.00",
+            "percentage": "7.5",
+            "evidence": [
+              {
+                "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+                "page": 4,
+                "quote": "QS >= USD 99,000.00: 7.5%"
+              }
+            ]
+          },
+          {
+            "threshold_usd": "164000.00",
+            "percentage": "10",
+            "evidence": [
+              {
+                "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+                "page": 4,
+                "quote": "QS >= USD 164,000.00: 10%"
+              }
+            ]
+          }
+        ],
+        "tier_basis": "all_spend",
+        "due_days": 45,
+        "evidence": [
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 3,
+            "quote": "1.1 Qualifying Spend. Qualifying Spend means freight charges (base freight, fuel, security surcharge and Annex D accessorials) on invoices dated in the period, net of all credit notes dated in the period whatever invoice they reference (rebate and improvement credits excepted). It excludes taxes (sales tax, GST), duties and disbursements, late fees, and rebate or improvement credits."
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "7.1 Volume rebate. The Carrier shall credit a rebate on each Quarter's Qualifying Spend (QS) at the tier reached: QS >= USD 61,000.00: 5%; QS >= USD 99,000.00: 7.5%; QS >= USD 164,000.00: 10%. The tier rate applies to all QS in the Quarter."
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "7.2 Thresholds. Rebate thresholds are in USD per Quarter."
+          },
+          {
+            "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+            "page": 4,
+            "quote": "7.3 Rebate credit. Rebate credit notes are issued within 45 days after Quarter end."
+          }
+        ]
+      },
+      "margin": null,
+      "annual": [
+        {
+          "percentage": "1.99",
+          "fixed_usd": null,
+          "minimum_spend_usd": null,
+          "due_days": 60,
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+              "page": 4,
+              "quote": "9.1 Annual improvement credit. Within 60 days after each anniversary of the Effective Date, the Carrier shall issue a credit of 1.99% of the prior Contract Year's Qualifying Spend."
+            }
+          ]
+        }
+      ]
+    },
+    "a733f424f7d79cc27783afc70f4457744245f784dd50bf95035327fb611e63da": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3"
+        }
+      ]
+    },
+    "afad4ba641d81b648e2572a7d6675ee3e426a1b60457c1c2c8237d6e32001532": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [
+        "TBX-US-EXP-E90"
+      ],
+      "invoice_ids": [
+        "TX-US-2032-5166"
+      ],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_02/0002.eml",
+          "page": 1,
+          "quote": "Please find attached invoice TX-US-2032-5166 for services under TBX-US-EXP-E90."
+        }
+      ]
+    },
+    "b5711bb1d118ea4e8741d85ce700478440662b0ce0b05220d0c26b504ba18427": {
+      "contract_id": "TBX-US-EXP-E90",
+      "effective_date": "2032-02-28",
+      "expiry_date": "2033-02-27",
+      "pricing_date_basis": "pickup_date",
+      "freight_rates": [
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-02-28",
+          "valid_to": "2032-08-27",
+          "weight_min_kg": "0",
+          "weight_max_kg": "44.5",
+          "all_weights": false,
+          "rate_per_kg": "3.44",
+          "minimum_charge": "113.00",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P1: pickups 2032-02-28 to 2032-08-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 0-44.5 kg 3.44 3.64"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-02-28",
+          "valid_to": "2032-08-27",
+          "weight_min_kg": "45",
+          "weight_max_kg": "99.5",
+          "all_weights": false,
+          "rate_per_kg": "3.29",
+          "minimum_charge": "113.00",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P1: pickups 2032-02-28 to 2032-08-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 45-99.5 kg 3.29 3.48"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-02-28",
+          "valid_to": "2032-08-27",
+          "weight_min_kg": "100",
+          "weight_max_kg": "299.5",
+          "all_weights": false,
+          "rate_per_kg": "3.14",
+          "minimum_charge": "113.00",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P1: pickups 2032-02-28 to 2032-08-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 100-299.5 kg 3.14 3.32"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-02-28",
+          "valid_to": "2032-08-27",
+          "weight_min_kg": "300",
+          "weight_max_kg": null,
+          "all_weights": false,
+          "rate_per_kg": "3.00",
+          "minimum_charge": "113.00",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P1: pickups 2032-02-28 to 2032-08-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 300+ kg 3.00 3.17"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-08-28",
+          "valid_to": "2033-02-27",
+          "weight_min_kg": "0",
+          "weight_max_kg": "44.5",
+          "all_weights": false,
+          "rate_per_kg": "3.64",
+          "minimum_charge": "113.00",
+          "continues_after_period": true,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P2: pickups 2032-08-28 to 2033-02-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 0-44.5 kg 3.44 3.64"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            },
+            {
+              "source_page": 3,
+              "source_quote": "Period 2 rates continue to apply after month 12 of the term"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-08-28",
+          "valid_to": "2033-02-27",
+          "weight_min_kg": "45",
+          "weight_max_kg": "99.5",
+          "all_weights": false,
+          "rate_per_kg": "3.48",
+          "minimum_charge": "113.00",
+          "continues_after_period": true,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P2: pickups 2032-08-28 to 2033-02-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 45-99.5 kg 3.29 3.48"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            },
+            {
+              "source_page": 3,
+              "source_quote": "Period 2 rates continue to apply after month 12 of the term"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-08-28",
+          "valid_to": "2033-02-27",
+          "weight_min_kg": "100",
+          "weight_max_kg": "299.5",
+          "all_weights": false,
+          "rate_per_kg": "3.32",
+          "minimum_charge": "113.00",
+          "continues_after_period": true,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P2: pickups 2032-08-28 to 2033-02-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 100-299.5 kg 3.14 3.32"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            },
+            {
+              "source_page": 3,
+              "source_quote": "Period 2 rates continue to apply after month 12 of the term"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-08-28",
+          "valid_to": "2033-02-27",
+          "weight_min_kg": "300",
+          "weight_max_kg": null,
+          "all_weights": false,
+          "rate_per_kg": "3.17",
+          "minimum_charge": "113.00",
+          "continues_after_period": true,
+          "evidence": [
+            {
+              "source_page": 8,
+              "source_quote": "Period P2: pickups 2032-08-28 to 2033-02-27"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 300+ kg 3.00 3.17"
+            },
+            {
+              "source_page": 8,
+              "source_quote": "USW1-USC3 minimum charge 113.00 113.00"
+            },
+            {
+              "source_page": 3,
+              "source_quote": "Period 2 rates continue to apply after month 12 of the term"
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "pickup_date",
+        "charge_base": "base_freight_only",
+        "monthly_rates": [
+          {
+            "month": "2032-02",
+            "percentage": "22.92",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-02 22.92%"
+              }
+            ]
+          },
+          {
+            "month": "2032-03",
+            "percentage": "24.78",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-03 24.78%"
+              }
+            ]
+          },
+          {
+            "month": "2032-04",
+            "percentage": "22.85",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-04 22.85%"
+              }
+            ]
+          },
+          {
+            "month": "2032-05",
+            "percentage": "23.58",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-05 23.58%"
+              }
+            ]
+          },
+          {
+            "month": "2032-06",
+            "percentage": "23.14",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-06 23.14%"
+              }
+            ]
+          },
+          {
+            "month": "2032-07",
+            "percentage": "22.40",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-07 22.40%"
+              }
+            ]
+          },
+          {
+            "month": "2032-08",
+            "percentage": "20.21",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-08 20.21%"
+              }
+            ]
+          },
+          {
+            "month": "2032-09",
+            "percentage": "20.52",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-09 20.52%"
+              }
+            ]
+          },
+          {
+            "month": "2032-10",
+            "percentage": "19.54",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-10 19.54%"
+              }
+            ]
+          },
+          {
+            "month": "2032-11",
+            "percentage": "17.46",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-11 17.46%"
+              }
+            ]
+          },
+          {
+            "month": "2032-12",
+            "percentage": "15.76",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2032-12 15.76%"
+              }
+            ]
+          },
+          {
+            "month": "2033-01",
+            "percentage": "15.31",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2033-01 15.31%"
+              }
+            ]
+          },
+          {
+            "month": "2033-02",
+            "percentage": "16.75",
+            "evidence": [
+              {
+                "source_page": 9,
+                "source_quote": "2033-02 16.75%"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "source_page": 3,
+            "source_quote": "4.1 Fuel surcharge. Fuel surcharge is the Annex C percentage for the month of the Pickup Date, applied to the base freight"
+          },
+          {
+            "source_page": 3,
+            "source_quote": "charge only. It does not apply to Annex D accessorials or the security surcharge."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Agreement No. TBX-US-EXP-E90"
+        },
+        {
+          "source_page": 3,
+          "source_quote": "2.1 Effective date. This Agreement takes effect on 2032-02-28 (the Effective Date)."
+        },
+        {
+          "source_page": 3,
+          "source_quote": "2.2 Initial term. The initial term is 12 months, ending on 2033-02-27."
+        },
+        {
+          "source_page": 3,
+          "source_quote": "3.2 Pricing date. Each shipment is priced at the rates, surcharges and fees in force on its Pickup Date."
+        }
+      ]
+    },
+    "cdb79a9a5966c2d8e9579612369dbf0ce7b1ae94a145701f8e63bfbc6fc64362": {
+      "invoice_id": "TX-US-2032-5166",
+      "contract_id": "TBX-US-EXP-E90",
+      "invoice_date": "2032-06-26",
+      "due_date": "2032-08-25",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Air freight",
+          "awb": "TE92942629",
+          "pickup_date": "2032-06-17",
+          "lane": "USW1-USC3",
+          "quantity": "113",
+          "quantity_unit": "kg",
+          "rate": "3.03",
+          "rate_kind": "per_unit",
+          "billed_amount": "342.39",
+          "source_page": 1,
+          "source_quote": "1 TE92942629 2032-06-17 Air freight USW1-USC3 113 kg 3.03 342.39"
+        },
+        {
+          "description": "Fuel surcharge",
+          "awb": "TE92942629",
+          "pickup_date": "2032-06-17",
+          "lane": "USW1-USC3",
+          "quantity": "342.39",
+          "quantity_unit": null,
+          "rate": "23.14",
+          "rate_kind": "percentage",
+          "billed_amount": "79.23",
+          "source_page": 1,
+          "source_quote": "2 TE92942629 2032-06-17 Fuel surcharge USW1-USC3 342.39 23.14% 79.23"
+        },
+        {
+          "description": "Security surcharge",
+          "awb": "TE92942629",
+          "pickup_date": "2032-06-17",
+          "lane": "USW1-USC3",
+          "quantity": "113",
+          "quantity_unit": "kg",
+          "rate": "0.24",
+          "rate_kind": "per_unit",
+          "billed_amount": "27.12",
+          "source_page": 1,
+          "source_quote": "3 TE92942629 2032-06-17 Security surcharge USW1-USC3 113 kg 0.24 27.12"
+        },
+        {
+          "description": "Delivery fee",
+          "awb": "TE92942629",
+          "pickup_date": "2032-06-17",
+          "lane": "USW1-USC3",
+          "quantity": "1",
+          "quantity_unit": "shpt",
+          "rate": "131.19",
+          "rate_kind": "per_unit",
+          "billed_amount": "131.19",
+          "source_page": 1,
+          "source_quote": "4 TE92942629 2032-06-17 Delivery fee USW1-USC3 1 shpt 131.19 131.19"
+        }
+      ]
+    },
+    "e14189c2ab04ab36219f67701364bbf58dcbf0dc684007972a2e0cfd4f23d6d8": {
+      "kind": "contract",
+      "content_status": "original",
+      "contract_ids": [
+        "TBX-US-EXP-E90"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "USW1-USC3",
+        "USE1-USE2",
+        "USC3-INW2",
+        "USS2-INN3",
+        "USS2-USC3",
+        "USC1-INS2",
+        "USE2-USC3",
+        "USC3-INN1"
+      ],
+      "changes": [],
+      "effective_date": "2032-02-28",
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 1,
+          "quote": "Agreement No. TBX-US-EXP-E90"
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 3,
+          "quote": "2.1 Effective date. This Agreement takes effect on 2032-02-28 (the Effective Date)."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 7,
+          "quote": "Executed by duly authorised officers."
+        },
+        {
+          "doc": "batch_01/0002.eml#MSA-TBX-US-EXP-E90.pdf",
+          "page": 8,
+          "quote": "USW1-USC3 minimum charge 113.00 113.00"
+        }
+      ]
+    },
+    "f8f30f1dd657311ecdebf0c929a9a67b6c935bf966ee58b59099f754e4757826": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [
+        "TBX-US-EXP-E90"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": []
+    },
+    "38f8d2f596d646973d1af15e4c3381459789039fec746c1eff11522ccbbb9195": {
+      "contract_id": "TBX-US-EXP-E90/RN-USW1-USC3-2032-06-05",
+      "effective_date": "2032-06-05",
+      "expiry_date": "2032-08-04",
+      "pricing_date_basis": "unknown",
+      "freight_rates": [
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-06-05",
+          "valid_to": "2032-08-04",
+          "weight_min_kg": "0",
+          "weight_max_kg": "44.5",
+          "all_weights": false,
+          "rate_per_kg": "3.33",
+          "minimum_charge": "109.21",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 0-44.5 kg: 3.33 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3, effective 2032-06-05 to 2032-08-04:"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge: 109.21 USD"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-06-05",
+          "valid_to": "2032-08-04",
+          "weight_min_kg": "45",
+          "weight_max_kg": "99.5",
+          "all_weights": false,
+          "rate_per_kg": "3.18",
+          "minimum_charge": "109.21",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 45-99.5 kg: 3.18 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3, effective 2032-06-05 to 2032-08-04:"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge: 109.21 USD"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-06-05",
+          "valid_to": "2032-08-04",
+          "weight_min_kg": "100",
+          "weight_max_kg": "299.5",
+          "all_weights": false,
+          "rate_per_kg": "3.03",
+          "minimum_charge": "109.21",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 100-299.5 kg: 3.03 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3, effective 2032-06-05 to 2032-08-04:"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge: 109.21 USD"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-06-05",
+          "valid_to": "2032-08-04",
+          "weight_min_kg": "300",
+          "weight_max_kg": null,
+          "all_weights": false,
+          "rate_per_kg": "2.90",
+          "minimum_charge": "109.21",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 300+ kg: 2.90 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3, effective 2032-06-05 to 2032-08-04:"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge: 109.21 USD"
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "unknown",
+        "charge_base": "unknown",
+        "monthly_rates": [],
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Reference: TBX-US-EXP-E90/RN-USW1-USC3-2032-06-05"
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Under clause 3.5 we give notice of the following rates for lane USW1-USC3, effective 2032-06-05 to 2032-08-04:"
+        }
+      ]
+    },
+    "f77f5c58b5da349987b9f13e359b4489e6d7b0b5e4998fdce3fb18de19efcb0e": {
+      "contract_id": "TBX-US-EXP-E90",
+      "instrument_id": "TBX-US-EXP-E90/RN-USW1-USC3-2032-06-05",
+      "sent_by": "Isolde Zeller",
+      "sent_on": "2032-06-02",
+      "binding_state": "unsigned",
+      "evidence": [
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "Reference: TBX-US-EXP-E90/RN-USW1-USC3-2032-06-05"
+        },
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "From: Isolde Zeller <isolde.zeller@tarrowby.example>"
+        },
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "Date: 2032-06-02T16:49:00Z"
+        },
+        {
+          "doc": "batch_02/0001.eml",
+          "page": 1,
+          "quote": "Many thanks,\nIsolde Zeller\nPricing Manager\nTarrowby Express Inc."
+        }
+      ]
+    },
+    "fb412e3f1d863916695ef0a69c9cff3cfe25a13bdcca5ff3edb1af37fab7b596": {
+      "contract_id": "TBX-US-EXP-E90/AMD-1",
+      "effective_date": "2032-03-18",
+      "expiry_date": null,
+      "pricing_date_basis": "unknown",
+      "freight_rates": [
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-03-18",
+          "valid_to": null,
+          "weight_min_kg": "0",
+          "weight_max_kg": "44.5",
+          "all_weights": false,
+          "rate_per_kg": "3.16",
+          "minimum_charge": "103.78",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 0-44.5 kg 3.16 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge 103.78 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Effective from 2032-03-18"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-03-18",
+          "valid_to": null,
+          "weight_min_kg": "45",
+          "weight_max_kg": "99.5",
+          "all_weights": false,
+          "rate_per_kg": "3.02",
+          "minimum_charge": "103.78",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 45-99.5 kg 3.02 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge 103.78 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Effective from 2032-03-18"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-03-18",
+          "valid_to": null,
+          "weight_min_kg": "100",
+          "weight_max_kg": "299.5",
+          "all_weights": false,
+          "rate_per_kg": "2.88",
+          "minimum_charge": "103.78",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 100-299.5 kg 2.88 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge 103.78 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Effective from 2032-03-18"
+            }
+          ]
+        },
+        {
+          "lane": "USW1-USC3",
+          "currency": "USD",
+          "valid_from": "2032-03-18",
+          "valid_to": null,
+          "weight_min_kg": "300",
+          "weight_max_kg": null,
+          "all_weights": false,
+          "rate_per_kg": "2.76",
+          "minimum_charge": "103.78",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 300+ kg 2.76 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "USW1-USC3 minimum charge 103.78 USD"
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Effective from 2032-03-18"
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "unknown",
+        "charge_base": "unknown",
+        "monthly_rates": [],
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Amendment reference TBX-US-EXP-E90/AMD-1"
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Effective from 2032-03-18"
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Master Services Agreement (Express Air) TBX-US-EXP-E90"
+        },
+        {
+          "source_page": 1,
+          "source_quote": "1. Annex A rates for the lanes below are deleted and replaced with the following, for every period, with effect from the effective\ndate:"
+        }
+      ]
+    },
+    "fc6747ffa7a9f55d3923d237e69d01153f26dc5fb9a316bc9482ae3d0ee5a5d5": {
+      "contract_id": "TBX-US-EXP-E90",
+      "carrier_name": "Tarrowby Express Inc.",
+      "definitions": [],
+      "rules": [],
+      "fx_annex_name": null,
+      "fx_rows": [],
+      "payment": {
+        "due_days": null,
+        "monthly_rate": null,
+        "grace_days": null,
+        "compounds": null,
+        "exclude_disputed": null,
+        "extensions_permitted": null,
+        "evidence": []
+      },
+      "evidence": []
+    }
+  }
+}

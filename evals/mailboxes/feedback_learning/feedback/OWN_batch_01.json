@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "world": "OWN",
+  "after_batch": "batch_01",
+  "decided_at": "2034-02-10T09:00:00Z",
+  "decided_by": {
+    "name": "AP Reviewer",
+    "role": "AP Manager",
+    "entity": "Fresh Retail"
+  },
+  "items": [
+    {
+      "item_id": "fb-own-1",
+      "solicited": false,
+      "finding_key": {
+        "class": "overcharge",
+        "invoice_id": "FB-100"
+      },
+      "decision": "close",
+      "fact": {
+        "type": "dispute_closed",
+        "subject": {
+          "invoice_id": "FB-100"
+        },
+        "value": {
+          "status": "closed"
+        },
+        "evidence": "AP reviewed the carrier confirmation."
+      },
+      "scope": {
+        "kind": "one_off",
+        "applies_to": {
+          "invoice_id": "FB-100"
+        },
+        "valid_from": "2034-02-10",
+        "valid_to": null
+      },
+      "note": "Applies only within the stated scope."
+    },
+    {
+      "item_id": "fb-own-2",
+      "solicited": false,
+      "finding_key": {
+        "class": "overcharge",
+        "invoice_id": "FB-200"
+      },
+      "decision": "override_amount",
+      "fact": {
+        "type": "dispute_closed",
+        "subject": {
+          "invoice_id": "FB-200"
+        },
+        "value": {
+          "status": "settled",
+          "amount_usd": "3.50"
+        },
+        "evidence": "AP reviewed the carrier confirmation."
+      },
+      "scope": {
+        "kind": "one_off",
+        "applies_to": {
+          "invoice_id": "FB-200"
+        },
+        "valid_from": "2034-02-10",
+        "valid_to": null
+      },
+      "note": "Applies only within the stated scope."
+    },
+    {
+      "item_id": "fb-own-3",
+      "solicited": false,
+      "finding_key": {
+        "class": "overcharge",
+        "invoice_id": "FB-300"
+      },
+      "decision": "reject",
+      "fact": {
+        "type": "dispute_closed",
+        "subject": {
+          "invoice_id": "FB-300"
+        },
+        "value": {
+          "status": "closed"
+        },
+        "evidence": "AP reviewed the carrier confirmation."
+      },
+      "scope": {
+        "kind": "one_off",
+        "applies_to": {
+          "invoice_id": "FB-300"
+        },
+        "valid_from": "2034-02-10",
+        "valid_to": null
+      },
+      "note": "Applies only within the stated scope."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+name: scanned minimum clean
+mailbox: evals/mailboxes/scanned_minimum_clean
+as_of: '2034-01-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: OCR-700
+  action: none
+  amount_usd: null
+  verdict: no_finding
+checks:
+- key:
+    class: overcharge
+    invoice_id: OCR-700
+  action: none
+  amount_usd: null
+  verdict: no_finding
+why: The reordered invoice uses USD 2/kg; 10 kg costs 20 (or the explicit 30 minimum).
+  Rasterised cases contain no PDF text layer.

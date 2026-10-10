@@ -1,0 +1,27 @@
+name: risk outside 15 days
+mailbox: evals/mailboxes/payment_risk
+as_of: '2034-01-05'
+mode: supervised
+expect:
+  key:
+    class: late_fee_risk
+    invoice_id: RISK-100
+  action: none
+  amount_usd: null
+  verdict: no_finding
+checks:
+- key:
+    class: overcharge
+    invoice_id: RISK-100
+  verdict: finding
+  amount_usd: '5.00'
+  action: draft:dispute
+  deadline: null
+- key:
+    class: late_fee_risk
+    invoice_id: RISK-100
+  action: none
+  amount_usd: null
+  verdict: no_finding
+why: Only days 1 through 14 trigger reminders; undisputed principal is 105 - 5 = 100,
+  and 2% is USD 2.

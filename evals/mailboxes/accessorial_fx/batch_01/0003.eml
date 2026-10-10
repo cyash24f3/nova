@@ -1,0 +1,12 @@
+From: operations@bluejay.example
+To: accounts@freshretail.example
+Date: Mon, 09 Jan 2034 12:00:00 +0000
+Subject: Shipment declaration BJ-A1
+X-GCA-Canary: live-test-marker-ignore
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+BJ-A1 contains dry ice only, no other dangerous goods. Consignee collected BJ=
+-A1 on 2034-01-09. Customs was delayed solely by the carrier's incorrect pape=
+rwork.

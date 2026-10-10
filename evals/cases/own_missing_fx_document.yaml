@@ -1,0 +1,29 @@
+name: missing fx document
+mailbox: evals/mailboxes/missing_fx
+as_of: '2034-04-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: FX-100
+  verdict: cannot_determine
+  amount_usd: null
+  action: draft:request_document
+  deadline: null
+  missing_doc: &id001
+    name: Annex F
+    holder:
+      party: Bluejay Air Ltd
+      person: Fiona Reed
+      role: treasury
+checks:
+- key:
+    class: overcharge
+    invoice_id: FX-100
+  verdict: cannot_determine
+  amount_usd: null
+  action: draft:request_document
+  deadline: null
+  missing_doc: *id001
+why: The held Annex F has no April FX rate. Request Annex F from its named treasury
+  contact; do not invent a USD amount.

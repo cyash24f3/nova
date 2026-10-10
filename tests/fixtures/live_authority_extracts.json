@@ -1,0 +1,1938 @@
+{
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "extractions": {
+    "045784867a766a77194a14159e8de25f08629b92d584238c13c639702bb47195": {
+      "contract_id": "C-71",
+      "effective_date": "2034-01-01",
+      "expiry_date": "2034-12-31",
+      "pricing_date_basis": "unknown",
+      "freight_rates": [
+        {
+          "lane": "NORTH-SOUTH",
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "weight_min_kg": null,
+          "weight_max_kg": null,
+          "all_weights": true,
+          "rate_per_kg": "5",
+          "minimum_charge": "0",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "FRT Air freight: USD 5 per kg, all weights, minimum USD 0."
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "unknown",
+        "charge_base": "unknown",
+        "monthly_rates": [],
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Original amendment C-71/AMD-1 for contract C-71."
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+        },
+        {
+          "source_page": 1,
+          "source_quote": "FRT Air freight: USD 5 per kg, all weights, minimum USD 0."
+        }
+      ]
+    },
+    "048e96c56b33a617406cb39f6da9db65a17ebdf3276d79f88cb339e61a46ee8c": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "Original rate notice C-71/RN-1 for contract C-71."
+        }
+      ]
+    },
+    "1d601372851b6920d3b0227ae92844d2d6dd9f91be5afe2e5704fcf1fc430449": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "Attached: amendment C-71/AMD-1."
+        }
+      ]
+    },
+    "1e60e2b812efd1f9b28779d866cadcf5b55701eca7229aa5186d9afb0bf27dfe": {
+      "kind": "contract",
+      "content_status": "original",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [
+        "pricing",
+        "term"
+      ],
+      "effective_date": "2034-01-01",
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Executed Master Services Agreement C-71"
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "SEC: Security screening = USD 2 per kg."
+        }
+      ]
+    },
+    "276101bd14a619b6aebcb864bde3e6dd5580fa9065ff6edaef8c88634f92ae27": {
+      "contract_id": "C-71",
+      "spend_categories": [],
+      "spend_codes": [],
+      "spend_basis": "unknown",
+      "net_charge_credits": null,
+      "excluded_credit_types": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Executed Master Services Agreement C-71"
+        }
+      ],
+      "rebate": null,
+      "margin": null,
+      "annual": []
+    },
+    "3020001adec02f69b3bce7f71408f17544245c12eda65fd2612eed490e2f55b3": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0009.eml",
+          "page": 1,
+          "quote": "This quote is not an original price instrument; I have no authority to change rates."
+        }
+      ]
+    },
+    "3207013d8be13274ac4f84fdc7bbd2b92728cf4ec6d58c8bc4b4921b7e499f61": {
+      "contract_id": "C-71",
+      "binding_state": "executed",
+      "changes_term": false,
+      "effective_date": "2034-01-01",
+      "expiry_date": "2034-12-31",
+      "auto_renews": null,
+      "renewal_months": null,
+      "notice_days": null,
+      "notice_deadline": null,
+      "extension_policy": "unknown",
+      "notice_sent_date": null,
+      "notice_for_expiry_date": null,
+      "contacts": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+        },
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "All other charges and terms unchanged."
+        },
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "Executed: Signed for Carrier Fiona Reed; Signed for Shipper Ken Shah; both signed 2034-01-06."
+        }
+      ]
+    },
+    "3bbd0bdcf0d177d8a346fe166683e4347e4e8909eaf66b23a2d3fd57ad7ded4b": {
+      "invoice_id": "AUTH-RATE-100",
+      "contract_id": "C-71",
+      "invoice_date": "2034-01-05",
+      "due_date": "2034-06-28",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "FRT Air freight",
+          "awb": "BJ-A1",
+          "pickup_date": "2034-01-02",
+          "lane": "NORTH-SOUTH",
+          "quantity": "10",
+          "quantity_unit": "kg",
+          "rate": "6.0",
+          "rate_kind": "per_unit",
+          "billed_amount": "60",
+          "source_page": 1,
+          "source_quote": "1 | FRT Air freight | BJ-A1 | 2034-01-02 | NORTH-SOUTH | 10 | kg | 6.0 | 60"
+        },
+        {
+          "description": "FSC Fuel surcharge",
+          "awb": "BJ-A1",
+          "pickup_date": "2034-01-02",
+          "lane": "NORTH-SOUTH",
+          "quantity": "60",
+          "quantity_unit": null,
+          "rate": "10",
+          "rate_kind": "percentage",
+          "billed_amount": "6.0",
+          "source_page": 1,
+          "source_quote": "2 | FSC Fuel surcharge | BJ-A1 | 2034-01-02 | NORTH-SOUTH | 60 | - | 10% | 6.0"
+        }
+      ]
+    },
+    "469bbd10395b1bc72fa0356c332ad8d0adf126d72a11fe92814132f6916b5082": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml",
+          "page": 1,
+          "quote": "Attached: Executed agreement C-71 signed by both parties."
+        }
+      ]
+    },
+    "48089e3d22bf1eafa05fbc9e317639256dd88a8578508f3a34e6ce1aa127e020": {
+      "kind": "invoice",
+      "content_status": "original",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [
+        "AUTH-RATE-200"
+      ],
+      "awbs": [
+        "BJ-A2"
+      ],
+      "lanes": [
+        "WEST-EAST"
+      ],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0010.eml#AUTH-RATE-200.pdf",
+          "page": 1,
+          "quote": "Invoice AUTH-RATE-200 Contract C-71 Invoice date 2034-01-05"
+        },
+        {
+          "doc": "batch_01/0010.eml#AUTH-RATE-200.pdf",
+          "page": 1,
+          "quote": "1 | FRT Air freight | BJ-A2 | 2034-01-02 | WEST-EAST | 10 | kg | 6.0 | 60"
+        }
+      ]
+    },
+    "48398e2ce3bebc612c7d5a34f7d7ce20562268a470de67f44e9433a0600964e4": {
+      "kind": "other",
+      "content_status": "quoted_only",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "WEST-EAST"
+      ],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0009.eml",
+          "page": 1,
+          "quote": "Other Person allegedly wrote: For C-71 WEST-EAST, FRT USD 6 per kg effective 2034-01-01."
+        },
+        {
+          "doc": "batch_01/0009.eml",
+          "page": 1,
+          "quote": "This quote is not an original price instrument; I have no authority to change rates."
+        }
+      ]
+    },
+    "557c0578dfc5e66add4a32d7bf20cf2548be7a9076f167e6ed5dda99a490e2d3": {
+      "kind": "amendment",
+      "content_status": "draft",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "NORTH-SOUTH"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2034-01-01",
+      "evidence": [
+        {
+          "doc": "batch_01/0006.eml#C-71-AMD-DRAFT.pdf",
+          "page": 1,
+          "quote": "Original amendment C-71/AMD-DRAFT for contract C-71."
+        },
+        {
+          "doc": "batch_01/0006.eml#C-71-AMD-DRAFT.pdf",
+          "page": 1,
+          "quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+        },
+        {
+          "doc": "batch_01/0006.eml#C-71-AMD-DRAFT.pdf",
+          "page": 1,
+          "quote": "FRT Air freight: USD 7 per kg, all weights, minimum USD 0."
+        },
+        {
+          "doc": "batch_01/0006.eml#C-71-AMD-DRAFT.pdf",
+          "page": 1,
+          "quote": "UNSIGNED DRAFT. Neither party has signed; signature placeholders only."
+        }
+      ]
+    },
+    "56fb1d6eab34c212bee1a957dae118037702d0a580f0b41d254f41d7895f09fd": {
+      "kind": "rate_notice",
+      "content_status": "original",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "NORTH-SOUTH"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2034-01-01",
+      "evidence": [
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "Original rate notice C-71/RN-1 for contract C-71."
+        },
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+        },
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "FRT Air freight: USD 6 per kg, all weights, minimum USD 0."
+        }
+      ]
+    },
+    "6734cefb8deef1ce92967bc5fb9279b2d2f0ec6b05cec4d33b0129e827e066e8": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": []
+    },
+    "6b6ba4f08a21d6a764867f79dc7c68d94341a58f7c639033f1e473f79ec00937": {
+      "lines": [
+        {
+          "line_index": 1,
+          "code": "FRT",
+          "category": "base_freight",
+          "shipment_id": "BJ-A2",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_01/0010.eml#AUTH-RATE-200.pdf",
+              "page": 1,
+              "quote": "1 | FRT Air freight | BJ-A2 | 2034-01-02 | WEST-EAST | 10 | kg | 6.0 | 60"
+            }
+          ]
+        },
+        {
+          "line_index": 2,
+          "code": "FSC",
+          "category": "fuel",
+          "shipment_id": "BJ-A2",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_01/0010.eml#AUTH-RATE-200.pdf",
+              "page": 1,
+              "quote": "2 | FSC Fuel surcharge | BJ-A2 | 2034-01-02 | WEST-EAST | 60 | - | 10% | 6.0"
+            }
+          ]
+        }
+      ]
+    },
+    "7048b3bb25a4545e8b2be03d5fafc39ff57132b310b8a0237c7f086a7fe86a67": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0007.eml",
+          "page": 1,
+          "quote": "Attached: amendment C-71/AMD-FUTURE."
+        }
+      ]
+    },
+    "7b66f839f0893cabe3e02b9302b36724628aebb4bf3157939023a2c4c5b5fbf0": {
+      "kind": "amendment",
+      "content_status": "original",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "NORTH-SOUTH"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2034-03-01",
+      "evidence": [
+        {
+          "doc": "batch_01/0007.eml#C-71-AMD-FUTURE.pdf",
+          "page": 1,
+          "quote": "Original amendment C-71/AMD-FUTURE for contract C-71."
+        },
+        {
+          "doc": "batch_01/0007.eml#C-71-AMD-FUTURE.pdf",
+          "page": 1,
+          "quote": "FRT Air freight: USD 7 per kg, all weights, minimum USD 0."
+        },
+        {
+          "doc": "batch_01/0007.eml#C-71-AMD-FUTURE.pdf",
+          "page": 1,
+          "quote": "Executed: Signed for Carrier Fiona Reed; Signed for Shipper Ken Shah; both signed 2034-01-09."
+        }
+      ]
+    },
+    "886c3ef5633568344e40d92e0cf2c38dab838760b36e761d299c8d0683175eaa": {
+      "shipments": [
+        {
+          "awb": "BJ-A1",
+          "arrival_date": "2034-01-02",
+          "release_date": "2034-01-04",
+          "delivery": "unknown",
+          "goods": "unknown",
+          "customs_fault": "unknown",
+          "cost": null,
+          "currency": null,
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#events.xlsx",
+              "page": 1,
+              "quote": "BJ-A1 | ARRIVED_FACILITY | 2034-01-02 | SOUTH | -"
+            },
+            {
+              "doc": "batch_01/0002.eml#events.xlsx",
+              "page": 1,
+              "quote": "BJ-A1 | DELIVERED | 2034-01-04 | SOUTH | -"
+            }
+          ]
+        },
+        {
+          "awb": "BJ-A2",
+          "arrival_date": "2034-01-02",
+          "release_date": "2034-01-04",
+          "delivery": "unknown",
+          "goods": "unknown",
+          "customs_fault": "unknown",
+          "cost": null,
+          "currency": null,
+          "evidence": [
+            {
+              "doc": "batch_01/0002.eml#events.xlsx",
+              "page": 1,
+              "quote": "BJ-A2 | ARRIVED_FACILITY | 2034-01-02 | SOUTH | -"
+            },
+            {
+              "doc": "batch_01/0002.eml#events.xlsx",
+              "page": 1,
+              "quote": "BJ-A2 | DELIVERED | 2034-01-04 | SOUTH | -"
+            }
+          ]
+        }
+      ],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": []
+    },
+    "8a9e5318be3a655b997c4f064344189f649838692b129a34e4ad8719fac65ce5": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [],
+      "invoice_ids": [
+        "AUTH-RATE-100"
+      ],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0005.eml",
+          "page": 1,
+          "quote": "Attached: Invoice AUTH-RATE-100."
+        }
+      ]
+    },
+    "8cfe2cdba0bfe4c7804d4bfbdc530478beb938b7b6d8845893516a8d82356d21": {
+      "kind": "other",
+      "content_status": "draft",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0006.eml",
+          "page": 1,
+          "quote": "Subject: amendment C-71/AMD-DRAFT"
+        }
+      ]
+    },
+    "8d79dd0f1b784165c589ed2e64143fabb73c3be148e7b85de2e0b40cf3d2a164": {
+      "kind": "amendment",
+      "content_status": "original",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "NORTH-SOUTH"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2034-01-01",
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "Original amendment C-71/AMD-1 for contract C-71."
+        },
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+        },
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "FRT Air freight: USD 5 per kg, all weights, minimum USD 0."
+        },
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "Executed: Signed for Carrier Fiona Reed; Signed for Shipper Ken Shah; both signed 2034-01-06."
+        }
+      ]
+    },
+    "97068283bc34a2d5b01435023be133927cf35d5b936375a2370795f7fa456228": {
+      "contract_id": "C-71",
+      "effective_date": "2034-01-01",
+      "expiry_date": "2034-12-31",
+      "pricing_date_basis": "pickup_date",
+      "freight_rates": [
+        {
+          "lane": "NORTH-SOUTH",
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "weight_min_kg": null,
+          "weight_max_kg": null,
+          "all_weights": true,
+          "rate_per_kg": "4",
+          "minimum_charge": "0",
+          "continues_after_period": false,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "FRT: Air freight = USD 4 per kg for all weights, minimum USD 0, on every lane."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Effective date 2034-01-01. End date 2034-12-31."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "No automatic renewal."
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "unknown",
+        "charge_base": "base_freight_only",
+        "monthly_rates": [
+          {
+            "month": "2034-01",
+            "percentage": "10",
+            "evidence": [
+              {
+                "source_page": 1,
+                "source_quote": "FSC: Fuel surcharge = 10 percent of correct base FRT only; January 2034 rate 10 percent."
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "FSC: Fuel surcharge = 10 percent of correct base FRT only; January 2034 rate 10 percent."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Executed Master Services Agreement C-71"
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Effective date 2034-01-01. End date 2034-12-31."
+        },
+        {
+          "source_page": 1,
+          "source_quote": "All pricing is in force on the pickup date."
+        }
+      ]
+    },
+    "99f44a6b008619f5be0e4d0650fe0eab7a1b114aa42174e2503beefd6733135f": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": []
+    },
+    "a38bbd808500614334063fa28785abdc56e1e75f56c893495d85be7f9256b5db": {
+      "kind": "invoice",
+      "content_status": "original",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [
+        "AUTH-RATE-100"
+      ],
+      "awbs": [
+        "BJ-A1"
+      ],
+      "lanes": [
+        "NORTH-SOUTH"
+      ],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0005.eml#AUTH-RATE-100.pdf",
+          "page": 1,
+          "quote": "Invoice AUTH-RATE-100\nContract C-71\nInvoice date 2034-01-05"
+        },
+        {
+          "doc": "batch_01/0005.eml#AUTH-RATE-100.pdf",
+          "page": 1,
+          "quote": "1 | FRT Air freight | BJ-A1 | 2034-01-02 | NORTH-SOUTH | 10 | kg | 6.0 | 60"
+        }
+      ]
+    },
+    "ae7fa836453736b8cb989a956095038d1ddf9e0a766029ddfec041dd7cb652c6": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [
+        "C-71/AMD-1"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "Attached: amendment C-71/AMD-1."
+        }
+      ]
+    },
+    "af6b7145a04c0d9840f727832bb525bcac027e783cc295728deb3ef576369044": {
+      "kind": "rate_notice",
+      "content_status": "unknown",
+      "contract_ids": [
+        "C-71"
+      ],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [
+        "WEST-EAST"
+      ],
+      "changes": [
+        "pricing"
+      ],
+      "effective_date": "2034-01-01",
+      "evidence": [
+        {
+          "doc": "batch_01/0008.eml",
+          "page": 1,
+          "quote": "Effective 2034-01-01 through 2034-12-31, lane WEST-EAST."
+        },
+        {
+          "doc": "batch_01/0008.eml",
+          "page": 1,
+          "quote": "FRT Air freight: USD 6 per kg, all weights, minimum USD 0."
+        }
+      ]
+    },
+    "b114ba57a3e526a49ff5989e26a681b41caff449b24a63541d0f6ca95c240a01": {
+      "invoice_id": "AUTH-RATE-200",
+      "contract_id": "C-71",
+      "invoice_date": "2034-01-05",
+      "due_date": "2034-06-28",
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "FRT Air freight",
+          "awb": "BJ-A2",
+          "pickup_date": "2034-01-02",
+          "lane": "WEST-EAST",
+          "quantity": "10",
+          "quantity_unit": "kg",
+          "rate": "6.0",
+          "rate_kind": "per_unit",
+          "billed_amount": "60",
+          "source_page": 1,
+          "source_quote": "1 | FRT Air freight | BJ-A2 | 2034-01-02 | WEST-EAST | 10 | kg | 6.0 | 60"
+        },
+        {
+          "description": "FSC Fuel surcharge",
+          "awb": "BJ-A2",
+          "pickup_date": "2034-01-02",
+          "lane": "WEST-EAST",
+          "quantity": "60",
+          "quantity_unit": null,
+          "rate": "10",
+          "rate_kind": "percentage",
+          "billed_amount": "6.0",
+          "source_page": 1,
+          "source_quote": "2 | FSC Fuel surcharge | BJ-A2 | 2034-01-02 | WEST-EAST | 60 | - | 10% | 6.0"
+        }
+      ]
+    },
+    "b39978c8c6809441e3ccaa15f47c612e72307ad1fc87133ea1ce75b0832070b9": {
+      "contract_id": "C-71",
+      "carrier_name": "Bluejay Air Ltd.",
+      "definitions": [
+        {
+          "code": "FRT",
+          "category": "base_freight",
+          "labels": [
+            "Air freight"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "FRT: Air freight = USD 4 per kg for all weights, minimum USD 0, on every lane."
+            }
+          ]
+        },
+        {
+          "code": "FSC",
+          "category": "fuel",
+          "labels": [
+            "Fuel surcharge"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "FSC: Fuel surcharge = 10 percent of correct base FRT only; January 2034 rate 10 percent."
+            }
+          ]
+        },
+        {
+          "code": "SEC",
+          "category": "security",
+          "labels": [
+            "Security screening"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "SEC: Security screening = USD 2 per kg."
+            }
+          ]
+        },
+        {
+          "code": "DLV",
+          "category": "delivery",
+          "labels": [
+            "Last mile delivery"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "DLV: Last mile delivery = USD 20 per shipment, only for carrier delivery."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Consignee collection attracts no DLV fee."
+            }
+          ]
+        },
+        {
+          "code": "STO",
+          "category": "storage",
+          "labels": [
+            "Bonded storage"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "STO: Bonded storage = USD 10 per billable day; two free days."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Storage excludes the release day and deducts free days."
+            }
+          ]
+        },
+        {
+          "code": "DG",
+          "category": "dangerous_goods",
+          "labels": [
+            "Hazard acceptance"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "DG: Hazard acceptance = USD 100 per shipment containing dangerous goods other than dry ice."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Dry ice only attracts ICE but no DG fee."
+            }
+          ]
+        },
+        {
+          "code": "ICE",
+          "category": "dry_ice",
+          "labels": [
+            "Refrigerant handling"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "ICE: Refrigerant handling = USD 25 per shipment containing dry ice only."
+            }
+          ]
+        },
+        {
+          "code": "CUS",
+          "category": "customs",
+          "labels": [
+            "Border examination"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "CUS: Border examination = USD 30 per shipment, only for shipper-caused customs errors."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier paperwork errors attract no CUS fee."
+            }
+          ]
+        },
+        {
+          "code": "ACT",
+          "category": "account",
+          "labels": [
+            "Account plan"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "ACT: Account plan = USD 10 per calendar month."
+            }
+          ]
+        },
+        {
+          "code": "TAX",
+          "category": "tax",
+          "labels": [
+            "Tax"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "TAX: Tax; DUTY: Duty; LF: Late fee."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Tax and duty are outside the above freight charges."
+            }
+          ]
+        },
+        {
+          "code": "DUTY",
+          "category": "duty",
+          "labels": [
+            "Duty"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "TAX: Tax; DUTY: Duty; LF: Late fee."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Tax and duty are outside the above freight charges."
+            }
+          ]
+        },
+        {
+          "code": "LF",
+          "category": "late_fee",
+          "labels": [
+            "Late fee"
+          ],
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "TAX: Tax; DUTY: Duty; LF: Late fee."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Late fee 2 percent per month, grace 5 days."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "code": "SEC",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "kg",
+          "rate": "2",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "SEC: Security screening = USD 2 per kg."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        },
+        {
+          "code": "DLV",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "shipment",
+          "rate": "20",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "carrier_delivery",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "DLV: Last mile delivery = USD 20 per shipment, only for carrier delivery."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        },
+        {
+          "code": "STO",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "storage_day",
+          "rate": "10",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": 2,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "STO: Bonded storage = USD 10 per billable day; two free days."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Storage excludes the release day and deducts free days."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        },
+        {
+          "code": "DG",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "shipment",
+          "rate": "100",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "dangerous_goods",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "DG: Hazard acceptance = USD 100 per shipment containing dangerous goods other than dry ice."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Dry ice only attracts ICE but no DG fee."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        },
+        {
+          "code": "ICE",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "shipment",
+          "rate": "25",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "dry_ice_only",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "ICE: Refrigerant handling = USD 25 per shipment containing dry ice only."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        },
+        {
+          "code": "CUS",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "shipment",
+          "rate": "30",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "shipper_customs_fault",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "CUS: Border examination = USD 30 per shipment, only for shipper-caused customs errors."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier paperwork errors attract no CUS fee."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        },
+        {
+          "code": "ACT",
+          "lane": null,
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "continues": false,
+          "unit": "month",
+          "rate": "10",
+          "minimum": null,
+          "maximum": null,
+          "base_codes": [],
+          "free_days": null,
+          "condition": "always",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "ACT: Account plan = USD 10 per calendar month."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        }
+      ],
+      "fx_annex_name": "Annex F",
+      "fx_rows": [
+        {
+          "month": "2034-01",
+          "inr_per_usd": "100",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Annex F, INR per USD: 2034-01 = 100; 2034-02 = 125; 2034-03 = 80."
+            }
+          ]
+        },
+        {
+          "month": "2034-02",
+          "inr_per_usd": "125",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Annex F, INR per USD: 2034-01 = 100; 2034-02 = 125; 2034-03 = 80."
+            }
+          ]
+        },
+        {
+          "month": "2034-03",
+          "inr_per_usd": "80",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Annex F, INR per USD: 2034-01 = 100; 2034-02 = 125; 2034-03 = 80."
+            }
+          ]
+        }
+      ],
+      "payment": {
+        "due_days": 15,
+        "monthly_rate": "2",
+        "grace_days": 5,
+        "compounds": false,
+        "exclude_disputed": true,
+        "extensions_permitted": true,
+        "evidence": [
+          {
+            "doc": "batch_01/0001.eml#C-71.pdf",
+            "page": 1,
+            "quote": "Payment: due 15 days after invoice date; printed due dates specify each invoice's deadline."
+          },
+          {
+            "doc": "batch_01/0001.eml#C-71.pdf",
+            "page": 1,
+            "quote": "Late fee 2 percent per month, grace 5 days."
+          },
+          {
+            "doc": "batch_01/0001.eml#C-71.pdf",
+            "page": 1,
+            "quote": "Late interest is simple interest on principal and does"
+          },
+          {
+            "doc": "batch_01/0001.eml#C-71.pdf",
+            "page": 1,
+            "quote": "Amounts under dispute are excluded from the principal used for late fees."
+          },
+          {
+            "doc": "batch_01/0001.eml#C-71.pdf",
+            "page": 1,
+            "quote": "An authorised payment_terms contact can replace a due date by original written email."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Payment: due 15 days after invoice date; printed due dates specify each invoice's deadline."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Late fee 2 percent per month, grace 5 days."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Late interest is simple interest on principal and does"
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Amounts under dispute are excluded from the principal used for late fees."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "An authorised payment_terms contact can replace a due date by original written email."
+        }
+      ]
+    },
+    "b82ce93c0ed2cdf35fb9f0a3ae88f22c73d8a9dff2f1fc65466ca26dd424879c": {
+      "events": [
+        {
+          "awb": "BJ-A2",
+          "event": "PICKED_UP",
+          "event_date": "2034-01-02",
+          "station": "NORTH",
+          "reason_code": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "BJ-A2 | PICKED_UP | 2034-01-02 | NORTH | -"
+            }
+          ]
+        },
+        {
+          "awb": "BJ-A2",
+          "event": "ARRIVED_FACILITY",
+          "event_date": "2034-01-02",
+          "station": "SOUTH",
+          "reason_code": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "BJ-A2 | ARRIVED_FACILITY | 2034-01-02 | SOUTH | -"
+            }
+          ]
+        },
+        {
+          "awb": "BJ-A2",
+          "event": "DELIVERED",
+          "event_date": "2034-01-04",
+          "station": "SOUTH",
+          "reason_code": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "BJ-A2 | DELIVERED | 2034-01-04 | SOUTH | -"
+            }
+          ]
+        }
+      ]
+    },
+    "b9e1744257e8420905dd4dac741ab84f527541a7e5a01edc21d0bd4dfc793f6e": {
+      "contract_id": "C-71",
+      "binding_state": "executed",
+      "changes_term": false,
+      "effective_date": null,
+      "expiry_date": null,
+      "auto_renews": null,
+      "renewal_months": null,
+      "notice_days": null,
+      "notice_deadline": null,
+      "extension_policy": "unknown",
+      "notice_sent_date": null,
+      "notice_for_expiry_date": null,
+      "contacts": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0007.eml#C-71-AMD-FUTURE.pdf",
+          "page": 1,
+          "quote": "Effective 2034-03-01 through 2034-12-31, lane NORTH-SOUTH."
+        },
+        {
+          "doc": "batch_01/0007.eml#C-71-AMD-FUTURE.pdf",
+          "page": 1,
+          "quote": "All other charges and terms unchanged."
+        },
+        {
+          "doc": "batch_01/0007.eml#C-71-AMD-FUTURE.pdf",
+          "page": 1,
+          "quote": "Executed: Signed for Carrier Fiona Reed; Signed for Shipper Ken Shah; both signed 2034-01-09."
+        },
+        {
+          "doc": "batch_01/0007.eml",
+          "page": 1,
+          "quote": "Attached: amendment C-71/AMD-FUTURE."
+        }
+      ]
+    },
+    "bd23ee2713a28c98608384740bcebd8588e5caa9004d50d5bb144d30bce260d3": {
+      "contract_id": "C-71",
+      "effective_date": "2034-01-01",
+      "expiry_date": "2034-12-31",
+      "pricing_date_basis": "unknown",
+      "freight_rates": [
+        {
+          "lane": "NORTH-SOUTH",
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "weight_min_kg": null,
+          "weight_max_kg": null,
+          "all_weights": true,
+          "rate_per_kg": "6",
+          "minimum_charge": "0",
+          "continues_after_period": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "FRT Air freight: USD 6 per kg, all weights, minimum USD 0."
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "unknown",
+        "charge_base": "unknown",
+        "monthly_rates": [],
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Original rate notice C-71/RN-1 for contract C-71."
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Effective 2034-01-01 through 2034-12-31, lane NORTH-SOUTH."
+        }
+      ]
+    },
+    "c1aae04be01d3a46377e3656af9d90509fe0b56ffeabca8277ca89588150e14b": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0007.eml",
+          "page": 1,
+          "quote": "Attached: amendment C-71/AMD-FUTURE."
+        }
+      ]
+    },
+    "c841b77a41316e4f7216ca1116bc871ed0fb38e792c073b7e5b7f60423de8de2": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml",
+          "page": 1,
+          "quote": "Subject: Original tracking events"
+        }
+      ]
+    },
+    "c8aa2f1d73525dc21cf8bbc2fc48dba48ccbcf424c610a5de18b874462054845": {
+      "events": [
+        {
+          "awb": "BJ-A1",
+          "event": "PICKED_UP",
+          "event_date": "2034-01-02",
+          "station": "NORTH",
+          "reason_code": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "BJ-A1 | PICKED_UP | 2034-01-02 | NORTH | -"
+            }
+          ]
+        },
+        {
+          "awb": "BJ-A1",
+          "event": "ARRIVED_FACILITY",
+          "event_date": "2034-01-02",
+          "station": "SOUTH",
+          "reason_code": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "BJ-A1 | ARRIVED_FACILITY | 2034-01-02 | SOUTH | -"
+            }
+          ]
+        },
+        {
+          "awb": "BJ-A1",
+          "event": "DELIVERED",
+          "event_date": "2034-01-04",
+          "station": "SOUTH",
+          "reason_code": null,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "BJ-A1 | DELIVERED | 2034-01-04 | SOUTH | -"
+            }
+          ]
+        }
+      ]
+    },
+    "cdce5df48fffaabb9934a063097eff60d3d1c950ae3cf7e4c5d01b7e875588c9": {
+      "contract_id": "C-71",
+      "instrument_id": "C-71/RN-1",
+      "sent_by": "Fiona Reed",
+      "sent_on": "2034-01-07",
+      "binding_state": "unsigned",
+      "evidence": [
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "From: Fiona Reed <fiona@bluejay.example>"
+        },
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "Date: 2034-01-07T12:00:00Z"
+        },
+        {
+          "doc": "batch_01/0004.eml",
+          "page": 1,
+          "quote": "Original rate notice C-71/RN-1 for contract C-71."
+        }
+      ]
+    },
+    "d1201c09a1b6b4971d7630d853dce691691733cc58e317d51a882765163f0f1c": {
+      "lines": [
+        {
+          "line_index": 1,
+          "code": "FRT",
+          "category": "base_freight",
+          "shipment_id": "BJ-A1",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_01/0005.eml#AUTH-RATE-100.pdf",
+              "page": 1,
+              "quote": "1 | FRT Air freight | BJ-A1 | 2034-01-02 | NORTH-SOUTH | 10 | kg | 6.0 | 60"
+            }
+          ]
+        },
+        {
+          "line_index": 2,
+          "code": "FSC",
+          "category": "fuel",
+          "shipment_id": "BJ-A1",
+          "service_month": null,
+          "service_key": null,
+          "reference_invoice_id": null,
+          "first_fee_month": null,
+          "fee_month_count": null,
+          "evidence": [
+            {
+              "doc": "batch_01/0005.eml#AUTH-RATE-100.pdf",
+              "page": 1,
+              "quote": "2 | FSC Fuel surcharge | BJ-A1 | 2034-01-02 | NORTH-SOUTH | 60 | - | 10% | 6.0"
+            }
+          ]
+        }
+      ]
+    },
+    "dc1d070169edc04b6e7485e8c91c41e0ce997a110ed0a0b2cca86e6491e4b041": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [],
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml",
+          "page": 1,
+          "quote": "Attached: Executed agreement C-71 signed by both parties."
+        }
+      ]
+    },
+    "e3c6fc75d5eb3401de81c40d59c9ae2032b9389d6256305e18e9d3c86e0430ff": {
+      "kind": "tracking",
+      "content_status": "original",
+      "contract_ids": [],
+      "invoice_ids": [],
+      "awbs": [
+        "BJ-A1",
+        "BJ-A2"
+      ],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": [
+        {
+          "doc": "batch_01/0002.eml#events.xlsx",
+          "page": 1,
+          "quote": "BJ-A1 | PICKED_UP | 2034-01-02 | NORTH | -"
+        },
+        {
+          "doc": "batch_01/0002.eml#events.xlsx",
+          "page": 1,
+          "quote": "BJ-A2 | DELIVERED | 2034-01-04 | SOUTH | -"
+        }
+      ]
+    },
+    "e4706765b24987ab769261f153a2413726a2ebe24f3abcbecbf052e19329d924": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [],
+      "invoice_ids": [],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": []
+    },
+    "e8bd4f6982de173d847e9ea61f85826309eedc61e085f241f7bade62807b9a5d": {
+      "kind": "other",
+      "content_status": "unknown",
+      "contract_ids": [],
+      "invoice_ids": [
+        "AUTH-RATE-200"
+      ],
+      "awbs": [],
+      "lanes": [],
+      "changes": [],
+      "effective_date": null,
+      "evidence": []
+    },
+    "eeae1595319d954511a0553c662a3144979dff4c66d5a30d0a283f05e9d9a15e": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [
+        "AUTH-RATE-200"
+      ],
+      "evidence": [
+        {
+          "doc": "batch_01/0010.eml",
+          "page": 1,
+          "quote": "Subject: Invoice AUTH-RATE-200"
+        },
+        {
+          "doc": "batch_01/0010.eml",
+          "page": 1,
+          "quote": "Attached: Invoice AUTH-RATE-200."
+        }
+      ]
+    },
+    "efd1ab8cfbc3e14cb68e9841d3a11fb59ee3020484884400afd13d889af332b0": {
+      "contract_id": "C-71",
+      "effective_date": "2034-01-01",
+      "expiry_date": "2034-12-31",
+      "pricing_date_basis": "pickup_date",
+      "freight_rates": [
+        {
+          "lane": "WEST-EAST",
+          "currency": "USD",
+          "valid_from": "2034-01-01",
+          "valid_to": "2034-12-31",
+          "weight_min_kg": null,
+          "weight_max_kg": null,
+          "all_weights": true,
+          "rate_per_kg": "4",
+          "minimum_charge": "0",
+          "continues_after_period": false,
+          "evidence": [
+            {
+              "source_page": 1,
+              "source_quote": "FRT: Air freight = USD 4 per kg for all weights, minimum USD 0, on every lane."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "All charges below apply to every lane and throughout the agreement term."
+            },
+            {
+              "source_page": 1,
+              "source_quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+            }
+          ]
+        }
+      ],
+      "fuel_terms": {
+        "date_basis": "unknown",
+        "charge_base": "base_freight_only",
+        "monthly_rates": [
+          {
+            "month": "2034-01",
+            "percentage": "10",
+            "evidence": [
+              {
+                "source_page": 1,
+                "source_quote": "FSC: Fuel surcharge = 10 percent of correct base FRT only; January 2034 rate 10 percent."
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "source_page": 1,
+            "source_quote": "FSC: Fuel surcharge = 10 percent of correct base FRT only; January 2034 rate 10 percent."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source_page": 1,
+          "source_quote": "Executed Master Services Agreement C-71"
+        },
+        {
+          "source_page": 1,
+          "source_quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+        },
+        {
+          "source_page": 1,
+          "source_quote": "All pricing is in force on the pickup date."
+        }
+      ]
+    },
+    "f3e8e40c2e87b1f37af439a14ce0fb8927e385eccd877ea452bb13f4845fee7d": {
+      "notice_vs_amendment": "amendment",
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "A jointly signed amendment takes precedence over an authorised rate notice for the same lane and period."
+        }
+      ]
+    },
+    "f922e00d10849ce0834a09285c619cb304f5a14fbdc181f3550f281ea923e1f2": {
+      "contract_id": "C-71",
+      "instrument_id": "C-71/AMD-1",
+      "sent_by": "Fiona Reed",
+      "sent_on": "2034-01-06",
+      "binding_state": "executed",
+      "evidence": [
+        {
+          "doc": "batch_01/0003.eml#C-71-AMD-1.pdf",
+          "page": 1,
+          "quote": "Executed: Signed for Carrier Fiona Reed; Signed for Shipper Ken Shah; both signed 2034-01-06."
+        },
+        {
+          "doc": "batch_01/0003.eml",
+          "page": 1,
+          "quote": "From: Fiona Reed <fiona@bluejay.example>"
+        }
+      ]
+    },
+    "f9ceaf4e3cd219c55ea9f0b5605b5266b34302f5e1a64dd972edc63ca3744890": {
+      "shipments": [],
+      "payments": [],
+      "credits": [],
+      "waivers": [],
+      "extensions": [],
+      "mail_intent": "other",
+      "mentioned_invoice_ids": [
+        "AUTH-RATE-100"
+      ],
+      "evidence": [
+        {
+          "doc": "batch_01/0005.eml",
+          "page": 1,
+          "quote": "Subject: Invoice AUTH-RATE-100"
+        },
+        {
+          "doc": "batch_01/0005.eml",
+          "page": 1,
+          "quote": "Attachments: AUTH-RATE-100.pdf"
+        }
+      ]
+    },
+    "fa72833f1c64f4756f87e51bf8e9c60906c7c7d8c2b02f46fea13376dfca5556": {
+      "contract_id": "C-71",
+      "binding_state": "executed",
+      "changes_term": false,
+      "effective_date": "2034-01-01",
+      "expiry_date": "2034-12-31",
+      "auto_renews": false,
+      "renewal_months": null,
+      "notice_days": null,
+      "notice_deadline": null,
+      "extension_policy": "jointly_signed",
+      "notice_sent_date": null,
+      "notice_for_expiry_date": null,
+      "contacts": [
+        {
+          "category": "notices",
+          "party": "carrier",
+          "person": "Fiona Reed",
+          "email": "fiona@bluejay.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier authorised notices contact: Fiona Reed <fiona@bluejay.example>."
+            }
+          ]
+        },
+        {
+          "category": "rates",
+          "party": "carrier",
+          "person": "Fiona Reed",
+          "email": "fiona@bluejay.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier authorised rates contact: Fiona Reed <fiona@bluejay.example>."
+            }
+          ]
+        },
+        {
+          "category": "waivers",
+          "party": "carrier",
+          "person": "Fiona Reed",
+          "email": "fiona@bluejay.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier authorised waivers contact: Fiona Reed <fiona@bluejay.example>."
+            }
+          ]
+        },
+        {
+          "category": "payment_terms",
+          "party": "carrier",
+          "person": "Fiona Reed",
+          "email": "fiona@bluejay.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier authorised payment_terms contact: Fiona Reed <fiona@bluejay.example>."
+            }
+          ]
+        },
+        {
+          "category": "treasury",
+          "party": "carrier",
+          "person": "Fiona Reed",
+          "email": "fiona@bluejay.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier authorised treasury contact: Fiona Reed <fiona@bluejay.example>."
+            }
+          ]
+        },
+        {
+          "category": "billing_disputes",
+          "party": "carrier",
+          "person": "Fiona Reed",
+          "email": "fiona@bluejay.example",
+          "evidence": [
+            {
+              "doc": "batch_01/0001.eml#C-71.pdf",
+              "page": 1,
+              "quote": "Carrier authorised billing_disputes contact: Fiona Reed <fiona@bluejay.example>."
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Effective date 2034-01-01. End date 2034-12-31. No automatic renewal."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "An extension requires both parties to sign."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Signed for Carrier: Fiona Reed, 2033-12-20."
+        },
+        {
+          "doc": "batch_01/0001.eml#C-71.pdf",
+          "page": 1,
+          "quote": "Signed for Shipper: Ken Shah, 2033-12-20."
+        },
+        {
+          "doc": "batch_01/0001.eml",
+          "page": 1,
+          "quote": "Executed agreement C-71 signed by both parties."
+        }
+      ]
+    }
+  }
+}

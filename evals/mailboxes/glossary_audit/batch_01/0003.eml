@@ -1,0 +1,42 @@
+From: billing@glassharbor.example
+To: accounts@cedargrove.example
+Date: Sun, 06 Jan 2036 12:00:00 +0000
+Subject: Invoice Z-LATER
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7577150990152697088=="
+
+--===============7577150990152697088==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice Z-LATER.
+
+--===============7577150990152697088==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Z-LATER.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzNjIvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLNSsUwEIX3fYo+QU3mNwFxIbhxJ3QnLrS3dyei4Pt7Ju1Fr7kohXTyM1/mnMnwPtzOQx4T
+vjySjiXVSUXG+XW8Wt4+P8Yyzsfx8VrcFsvOzpSkICIjOzpRUkGcbcVeihUXnFhcTGi9eZrvz+lp
+Is7iPb+CYHa0amwK6jMdZJGMWlTpN8drmmoutccwEKtvJXErxaXQgSv3kJInSyb/1mICvRIREydm
+NgAT5zZah3WaqHLpseL6By5G4tLhjKZaMl3S6gq7ydRWaK0wTZVFOoLyZFb8AmGBxDUq8QVOhXet
+rmgn2heVqjPYZNUTaq7h7n66oNmxi/NoE6ze1jU1216wl35qbTlLI+8zzfAjHg646FjdV0NNjc61
+GZ3lZzvErZHTqRSZWI06kejThmJR4fjjUoOwdmUY0F6uxnM5E9gejuRT/oXe75LBzcoqdABUW7Rl
+ZE5bZC/mJ8o3rUm4m4eH4Qvxp8vrCmVuZHN0cmVhbQplbmRvYmoKCnhyZWYKMCA3CjAwMDAwMDAw
+MDAgNjU1MzUgZiAKMDAwMDAwMDA0MiAwMDAwMCBuIAowMDAwMDAwMTIwIDAwMDAwIG4gCjAwMDAw
+MDAxNzIgMDAwMDAgbiAKMDAwMDAwMDIxMyAwMDAwMCBuIAowMDAwMDAwMzIwIDAwMDAwIG4gCjAw
+MDAwMDA0MDcgMDAwMDAgbiAKCnRyYWlsZXIKPDwvU2l6ZSA3L1Jvb3QgMSAwIFIvSURbPEMzODU2
+MjYwMzZDMkIxNkY0NkMyQjZDMzk1QzM4NkMzPjxBNTI1QzhFQjBBNUNBMDE0Q0VERTM3NUQ4Mjcx
+NzREQz5dPj4Kc3RhcnR4cmVmCjgzOAolJUVPRgo=
+
+--===============7577150990152697088==--

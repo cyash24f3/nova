@@ -1,0 +1,35 @@
+name: feedback rates
+mailbox: evals/mailboxes/feedback_rates
+as_of: '2034-02-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: RATE-200
+  verdict: finding
+  amount_usd: '10.00'
+  action: draft:dispute
+  deadline: null
+  learned_at: &id001
+    feedback_item_id: fb-rate
+    batch: batch_01
+checks:
+- key:
+    class: overcharge
+    invoice_id: RATE-200
+  verdict: finding
+  amount_usd: '10.00'
+  action: draft:dispute
+  deadline: null
+  learned_at: *id001
+- key:
+    class: overcharge
+    invoice_id: RATE-400
+  verdict: finding
+  amount_usd: '20.00'
+  action: draft:dispute
+  deadline: null
+why: Human decisions persist, carry learned_at, and affect only their explicit key/person/category/lane/month
+  scope.
+feedback:
+  batch_01: evals/mailboxes/feedback_rates/feedback/OWN_batch_01.json

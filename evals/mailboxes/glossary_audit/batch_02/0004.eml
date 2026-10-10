@@ -1,0 +1,11 @@
+From: adrian@glassharbor.example
+To: accounts@cedargrove.example
+Date: Thu, 24 Jan 2036 12:00:00 +0000
+Subject: One-shipment delivery waiver
+X-GCA-Canary: live-test-marker-ignore
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Under GH-92 I waive DLV in full on GH-HIGH, invoice HIGH-5000 only. No condit=
+ion and no other invoice or shipment is covered.

@@ -1,0 +1,40 @@
+From: operations@bluejay.example
+To: accounts@freshretail.example
+Date: Sat, 01 Apr 2034 12:00:00 +0000
+Subject: Credit note CR-5
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8373814333301724684=="
+
+--===============8373814333301724684==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Credit note CR-5.
+
+--===============8373814333301724684==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="CR-5.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAyNTIvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjaZVC7asQwEOz9FfqCi/ZtQ0gRuOa6gLuQIthyF0IO8v+ZlS5wIQitrdXsaGamr+l5nahULCps
+Za7LyVTL+lEets/va5nLepTXR5VgN1dfQrl68yPUjauKMe8oG7rqlF0HQliqiCju6q1SYsIwC0ww
+8OTRWc137JbMKsAGsI2r4S48sSH5lpmJJrdxA18Fw+GOvqhhLk+YAnaGynrHyfrOu5LQ09t6+eu2
+nlhI459fZ198w+puBjM6DXoOfOXXO15WXSwdUteUurUrSEWjElShwgfyg+vM4d5b7wwvkbPUM5b+
+xx4+0u2Z39gyNR5pc+uuzuv0Mv0AM/xm3wplbmRzdHJlYW0KZW5kb2JqCgp4cmVmCjAgNwowMDAw
+MDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNDIgMDAwMDAgbiAKMDAwMDAwMDEyMCAwMDAwMCBuIAow
+MDAwMDAwMTcyIDAwMDAwIG4gCjAwMDAwMDAyMTMgMDAwMDAgbiAKMDAwMDAwMDMyMCAwMDAwMCBu
+IAowMDAwMDAwNDA3IDAwMDAwIG4gCgp0cmFpbGVyCjw8L1NpemUgNy9Sb290IDEgMCBSL0lEWzw1
+NjIzQzNBOTBFQzI4NkMyQkFDMjk0QzM5MTYzQzJBNz48MzE1REZEMzJCRTY5NTEyQ0U4RjQyMUIz
+MDI1REUzMDg+XT4+CnN0YXJ0eHJlZgo3MjgKJSVFT0YK
+
+--===============8373814333301724684==--

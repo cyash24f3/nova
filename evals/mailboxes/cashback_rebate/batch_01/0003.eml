@@ -1,0 +1,42 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Thu, 05 Jan 2034 12:00:00 +0000
+Subject: Invoice CB-100
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6825113881712685843=="
+
+--===============6825113881712685843==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice CB-100.
+
+--===============6825113881712685843==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="CB-100.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzMzQvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLNSsUwEIX3fYo8Qc38JyAuBDfuhO7EhfZnJ6Lg+zuZ9orXXJRCmqTNN+eczPA+3E4DpOwP
+JJRUch2FOU2v6Wp++/xIJU1berzmqqupblqVVDAzMeJCQJnyzdN0f87IIxKw9RRywmpsqKBk3DhO
+MYLfDKt5rFDqv0KUFYzbjNDFkOta/A0xSoctMKqf6bFs8gdOfUQqHc5wxErlglETQ7cpurrRillE
+iLkDKI61AF7wObvDtQmxucXkjkOWB7cqh1AxcjZqteySa4t2/1tIS9vVpdWPmEH8dXzNkd2LK8w/
+DUedOfjHSsBDgUZwGjcXsds81UaNFZ6dB6+5WVTtvAqNqsV6r35bh24Wb4imXzQS/K67O5XIs+Vi
+Rz3kZ1yYToQLPXC45pU3QW/tgovX2fw+2nw/FW28z/XlxD6dDObe5HfT8DB8AWF/uP8KZW5kc3Ry
+ZWFtCmVuZG9iagoKeHJlZgowIDcKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDQyIDAwMDAw
+IG4gCjAwMDAwMDAxMjAgMDAwMDAgbiAKMDAwMDAwMDE3MiAwMDAwMCBuIAowMDAwMDAwMjEzIDAw
+MDAwIG4gCjAwMDAwMDAzMjAgMDAwMDAgbiAKMDAwMDAwMDQwNyAwMDAwMCBuIAoKdHJhaWxlcgo8
+PC9TaXplIDcvUm9vdCAxIDAgUi9JRFs8MjdDM0E2NUUyNkMyQUJDMkFBQzI5QzFEQzNBNzM5MTU+
+PDY2ODkyNkJBNjQ3ODU1NUIzRjMyQzU5QzhCN0Q1OTk0Pl0+PgpzdGFydHhyZWYKODEwCiUlRU9G
+Cg==
+
+--===============6825113881712685843==--

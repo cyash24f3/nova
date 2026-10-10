@@ -1,0 +1,41 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Sun, 05 Feb 2034 12:00:00 +0000
+Subject: Invoice RATE-400
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2036298036957351855=="
+
+--===============2036298036957351855==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice RATE-400.
+
+--===============2036298036957351855==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="RATE-400.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzMzIvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLNSsUwFIT3fYo8Qc35T0BcCG7cCd2JC217dyIKvr+TtILXXpRCmqQ535mZdHgfbqeBUsZD
+iS2VXEdTTdNruprfPj9SSdMpPV5r9TXcT15d3DgbK+Gc8SIqWfLN03R/zskjC2kcSQLKGhrs5BLK
+WQWUEPrNiJrHSqX+K8bVKbTNhCFGRAHEvI92wBYaHTVHrIb9gXOMLOWACx65SrlgNCwYNs1XGK0I
+zUxUDwDnsRbiCz5nOFybkJhbTHDcZSG41bULtRCw2WtkSK4t2u20iZe260vr32Mmw2v/mnt2L1CY
+fxrufebO31dGCIUaATRtLvpu81Qbta/4rJ7Q8xS968Gryehe4uhVaK8Gxrpa8KHWvSdYPVC291PW
+Z16MZV+fXRPtd78pC0Xm4C1q8N9mWwVJ3mb+ggbbnvP6vYtQt1/6bhoehi/5PbVdCmVuZHN0cmVh
+bQplbmRvYmoKCnhyZWYKMCA3CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA0MiAwMDAwMCBu
+IAowMDAwMDAwMTIwIDAwMDAwIG4gCjAwMDAwMDAxNzIgMDAwMDAgbiAKMDAwMDAwMDIxMyAwMDAw
+MCBuIAowMDAwMDAwMzIwIDAwMDAwIG4gCjAwMDAwMDA0MDcgMDAwMDAgbiAKCnRyYWlsZXIKPDwv
+U2l6ZSA3L1Jvb3QgMSAwIFIvSURbPEMyQkFDMzhCQzJCODZBQzNBQzUyMTlDM0JCNkFDM0ExPjxG
+MDVBNjhDMjFCOTUzRDVGOEUxQjcwRjc5NzJDNkI0MT5dPj4Kc3RhcnR4cmVmCjgwOAolJUVPRgo=
+
+--===============2036298036957351855==--

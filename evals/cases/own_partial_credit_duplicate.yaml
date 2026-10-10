@@ -1,0 +1,22 @@
+name: partial credit duplicate
+mailbox: evals/mailboxes/credit_rebill
+as_of: '2034-05-10'
+mode: supervised
+expect:
+  key:
+    class: duplicate
+    invoice_id: CREDIT-200
+  verdict: finding
+  amount_usd: '15.00'
+  action: draft:dispute
+  deadline: null
+checks:
+- key:
+    class: duplicate
+    invoice_id: CREDIT-200
+  verdict: finding
+  amount_usd: '15.00'
+  action: draft:dispute
+  deadline: null
+why: 'The second USD 20 charge duplicates the first except for its documented USD
+  5 reversal: recover 15.'

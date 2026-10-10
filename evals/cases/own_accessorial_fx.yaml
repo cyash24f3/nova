@@ -1,0 +1,22 @@
+name: accessorial fx
+mailbox: evals/mailboxes/accessorial_fx
+as_of: '2034-03-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: INR-100
+  verdict: finding
+  amount_usd: '164.00'
+  action: draft:dispute
+  deadline: null
+checks:
+- key:
+    class: overcharge
+    invoice_id: INR-100
+  verdict: finding
+  amount_usd: '164.00'
+  action: draft:dispute
+  deadline: null
+why: Correct kg/shipment/month rates, storage days and eligibility produce INR 20,500
+  excess; February FX 125 gives USD 164.

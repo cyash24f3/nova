@@ -1,0 +1,35 @@
+name: cashback margin annual
+mailbox: evals/mailboxes/cashback_margin_annual
+as_of: '2035-03-02'
+mode: supervised
+expect:
+  key:
+    class: cashback
+    contract_id: C-71
+    period: 2034-Q1
+    credit_type: margin_step_down
+  verdict: finding
+  amount_usd: '7.00'
+  action: draft:claim_credit
+  deadline: '2034-04-30'
+checks:
+- key:
+    class: cashback
+    contract_id: C-71
+    period: 2034-Q1
+    credit_type: margin_step_down
+  verdict: finding
+  amount_usd: '7.00'
+  action: draft:claim_credit
+  deadline: '2034-04-30'
+- key:
+    class: cashback
+    contract_id: C-71
+    period: CY1
+    credit_type: promised_credit
+  verdict: finding
+  amount_usd: '7.14'
+  action: draft:claim_credit
+  deadline: '2035-03-02'
+why: Closed periods use billed qualifying spend and subtract held issued credits for
+  the exact credit key.

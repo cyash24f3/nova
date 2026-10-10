@@ -1,0 +1,40 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Mon, 10 Apr 2034 12:00:00 +0000
+Subject: Issued volume rebate CN-CB8
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0067173646026692482=="
+
+--===============0067173646026692482==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Issued volume rebate CN-CB8.
+
+--===============0067173646026692482==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="CN-CB8.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAyNzAvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjaZVHLasQwDLznK/wFqV6WYig9FHrprZBb6SlxbqW0sP/fUbJLd7sYFNkzGo2U4Xt4ngcuhMNF
+apmojdWszJ/lYfk6/ZSpzFt5f7QWilO9ugm5hmTmLfLWfQvzKmRqXVZE0UkWIOacSNaoKKkCWvHN
+yEo7R33zHgZFhq6lCtBQlv70Mb/euqNRlC3u/FWGNw7JbiHX3SpDicLRZQFnTZ+7ezm8HR4CVftr
+R96Eaq1qdsauZ2UobNDpeTuzCNN29KN7x9FobDy1e8PmEyQVkkdk70f+t+ag80gN6PLP9q2x5fIb
+UikrgW2wCr2du+VSMiYfzNRt+/KnzD0ua8GichW6dzzGeZmHt+EXLux6+gplbmRzdHJlYW0KZW5k
+b2JqCgp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNDIgMDAwMDAgbiAKMDAw
+MDAwMDEyMCAwMDAwMCBuIAowMDAwMDAwMTcyIDAwMDAwIG4gCjAwMDAwMDAyMTMgMDAwMDAgbiAK
+MDAwMDAwMDMyMCAwMDAwMCBuIAowMDAwMDAwNDA3IDAwMDAwIG4gCgp0cmFpbGVyCjw8L1NpemUg
+Ny9Sb290IDEgMCBSL0lEWzxDMkI5QzM5NDA2MjUxMEMzOTdDMzlFNDZDM0I3MzNDMj48NUIzMkEw
+QzAyNjA4MjhBN0NFNDAwODZBNDFGMTEwQzE+XT4+CnN0YXJ0eHJlZgo3NDYKJSVFT0YK
+
+--===============0067173646026692482==--

@@ -1,0 +1,42 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Fri, 05 May 2034 12:00:00 +0000
+Subject: Invoice CREDIT-200
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============9094017962914766197=="
+
+--===============9094017962914766197==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice CREDIT-200.
+
+--===============9094017962914766197==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="CREDIT-200.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzMzYvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLNSsUwEIX3fYo8Qc38JyAuBDfuhO7Ehbc/O5Er+P5Opq147UUppEma+eac03Tn7n7oIGV/
+IKGkkmsvzGl4Szfj++dHKmlY0vMtV51NddGqpIKZSZD9IFdhnAgpU757GR4vWblHArYjjZw0Gxsq
+KBk3nlOM4DfDau4rlPqvIGUF4zYLMURNVnaVMR6wBXr1miOWTf7AaXgtB5xhj5XKFaMmhm5TdHaj
+FbOIEPMBoNjXAnjF5+gO5ybExhaTOw5ZHtysHELFyNmo1bJLri3a9bSQlrarU+sfMYP4a/uaI7uT
+K8w/DUefMfjbSsBDgUZwGjcXsds81UaNFV7Ug/dcLLoevAr1qsWOXgl23X61KPSLRoLffVenEnm2
+XGzrh/yKE8NOuPhpEOPmmmdeBP3mFpy8z+L/o83XKqC8zvS0k/e6RgwnD0P31H0B5Le55AplbmRz
+dHJlYW0KZW5kb2JqCgp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNDIgMDAw
+MDAgbiAKMDAwMDAwMDEyMCAwMDAwMCBuIAowMDAwMDAwMTcyIDAwMDAwIG4gCjAwMDAwMDAyMTMg
+MDAwMDAgbiAKMDAwMDAwMDMyMCAwMDAwMCBuIAowMDAwMDAwNDA3IDAwMDAwIG4gCgp0cmFpbGVy
+Cjw8L1NpemUgNy9Sb290IDEgMCBSL0lEWzwxQzNBQzM5OEMzOUMwOUMyOTgyQTZBMEM2MUMyOUVD
+Mj48REYzQ0U1NjYxNzk0QUZFQUU3ODI1RDQ1OTA0RjlBNDg+XT4+CnN0YXJ0eHJlZgo4MTIKJSVF
+T0YK
+
+--===============9094017962914766197==--

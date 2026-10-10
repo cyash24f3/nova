@@ -1,0 +1,11 @@
+From: Ada Example <ada@bluejay.example>
+To: accounts@freshretail.example
+Date: Mon, 06 Feb 2034 12:00:00 +0000
+Subject: Original account fee waiver
+X-GCA-Canary: live-test-marker-ignore
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Under C-71, waive ACT in full on invoice AUTH-100,
+for service month 2034-01. No payment or pickup condition applies.

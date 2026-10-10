@@ -1,0 +1,20 @@
+name: future rebill excluded
+mailbox: evals/mailboxes/credit_rebill
+as_of: '2034-01-10'
+mode: supervised
+expect:
+  key:
+    class: duplicate
+    invoice_id: CREDIT-200
+  action: none
+  amount_usd: null
+  verdict: no_finding
+checks:
+- key:
+    class: duplicate
+    invoice_id: CREDIT-200
+  action: none
+  amount_usd: null
+  verdict: no_finding
+why: A January report cannot see the April credit or the May rebill even though both
+  batches have been ingested.

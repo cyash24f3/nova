@@ -1,0 +1,11 @@
+From: fiona@bluejay.example
+To: accounts@freshretail.example
+Date: Wed, 25 Jan 2034 12:00:00 +0000
+Subject: Due date extension OLD-200
+X-GCA-Canary: live-test-marker-ignore
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Under C-71, I extend the due date of invoice OLD-200 to 2034-02-10. I am the =
+carrier's Schedule 1 payment_terms contact.

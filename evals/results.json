@@ -1,0 +1,349 @@
+{
+ "harness": "harness/harness.py",
+ "passed": 27,
+ "total": 27,
+ "your_cases": 25,
+ "score": 1.0,
+ "cases": [
+  {
+   "case": "own_accessorial_fx.yaml",
+   "name": "accessorial fx",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_authority_precedence.yaml",
+   "name": "authority precedence",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_cashback_margin_annual.yaml",
+   "name": "cashback margin annual",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_cashback_rebate.yaml",
+   "name": "cashback rebate",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_compound_fee.yaml",
+   "name": "compound fee",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_conditional_waiver.yaml",
+   "name": "conditional waiver",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_expiry_at_60_days.yaml",
+   "name": "expiry at 60 days",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_expiry_outside_61_days.yaml",
+   "name": "expiry outside 61 days",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_extended_due_date.yaml",
+   "name": "extended due date",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_feedback_authority.yaml",
+   "name": "feedback authority",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_feedback_learning.yaml",
+   "name": "feedback learning",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_feedback_rates.yaml",
+   "name": "feedback rates",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_future_rebill_excluded.yaml",
+   "name": "future rebill excluded",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_missing_fx_document.yaml",
+   "name": "missing fx document",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_other_shipment_clean.yaml",
+   "name": "other shipment clean",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_partial_credit_duplicate.yaml",
+   "name": "partial credit duplicate",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_percentage_dependencies.yaml",
+   "name": "percentage dependencies",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_reordered_invoice.yaml",
+   "name": "reordered invoice",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_risk_at_14_days.yaml",
+   "name": "risk at 14 days",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_risk_at_1_day.yaml",
+   "name": "risk at 1 day",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_risk_on_due_date.yaml",
+   "name": "risk on due date",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_risk_outside_15_days.yaml",
+   "name": "risk outside 15 days",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_scanned_minimum_clean.yaml",
+   "name": "scanned minimum clean",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_scanned_overcharge.yaml",
+   "name": "scanned overcharge",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "own_unranked_conflict.yaml",
+   "name": "unranked conflict",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "sample_conflict.yaml",
+   "name": "amendment and rate notice disagree",
+   "pass": true,
+   "diff": []
+  },
+  {
+   "case": "sample_overcharge.yaml",
+   "name": "wrong rate on one freight line",
+   "pass": true,
+   "diff": []
+  }
+ ],
+ "execution": "validated_cache_only",
+ "confidence": {
+  "model": "evidence-v2",
+  "items_scored": 32,
+  "correct": 32,
+  "incorrect": 0,
+  "brier": 0.004967,
+  "auroc": null,
+  "reliability_bins": [
+   {
+    "lower": 0.7,
+    "upper": 0.8,
+    "count": 1,
+    "mean_confidence": 0.7799,
+    "accuracy": 1.0
+   },
+   {
+    "lower": 0.9,
+    "upper": 1.0,
+    "count": 31,
+    "mean_confidence": 0.944097,
+    "accuracy": 1.0
+   }
+  ],
+  "auroc_note": "Requires both correct and incorrect reported items."
+ },
+ "confidence_observations": [
+  {
+   "group": "b84f78096579a2a40732ff2f4e2ef0a9b105e375f49a88a5a9296ad47f3067d9",
+   "raw_probability": 0.9608342772032357,
+   "correct": true
+  },
+  {
+   "group": "8eeb7a6ad304ebb5e302942d1e514a045ce73e8be30ccf3fe8d7e9ce6e47ad1a",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "8eeb7a6ad304ebb5e302942d1e514a045ce73e8be30ccf3fe8d7e9ce6e47ad1a",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "0476b7f046e1d9d48dc90705cff8865310826f02f12cbbfee622fbebb23f97f2",
+   "raw_probability": 0.8965995485417504,
+   "correct": true
+  },
+  {
+   "group": "0476b7f046e1d9d48dc90705cff8865310826f02f12cbbfee622fbebb23f97f2",
+   "raw_probability": 0.8965995485417504,
+   "correct": true
+  },
+  {
+   "group": "bbf7b3334ed0852d8e8ebbce0f10c52dcd1dfcc6967d582a695f9a1facd8d863",
+   "raw_probability": 0.8965995485417504,
+   "correct": true
+  },
+  {
+   "group": "ff4cd8386d180d6b49453f62dd9b6c7525791687ea5cb0a8c81a227698a7252b",
+   "raw_probability": 0.9608342772032357,
+   "correct": true
+  },
+  {
+   "group": "ff4cd8386d180d6b49453f62dd9b6c7525791687ea5cb0a8c81a227698a7252b",
+   "raw_probability": 0.9608342772032357,
+   "correct": true
+  },
+  {
+   "group": "8cb0372c8876662b045711522b4cd53fbed816f3a66251874cdc0b377f6dd798",
+   "raw_probability": 0.8765329524347759,
+   "correct": true
+  },
+  {
+   "group": "81a9241d11167e71e916b0d54f54217cfb44d341f1ceb5a2bd8b0b8b5a53750a",
+   "raw_probability": 0.9137258055040833,
+   "correct": true
+  },
+  {
+   "group": "b0c242ce6c6e596f903e2130e73afe0d843cd084ba6a003ccdb52772d7a60b7d",
+   "raw_probability": 0.9137258055040833,
+   "correct": true
+  },
+  {
+   "group": "b0c242ce6c6e596f903e2130e73afe0d843cd084ba6a003ccdb52772d7a60b7d",
+   "raw_probability": 0.8765329524347759,
+   "correct": true
+  },
+  {
+   "group": "b0c242ce6c6e596f903e2130e73afe0d843cd084ba6a003ccdb52772d7a60b7d",
+   "raw_probability": 0.8765329524347759,
+   "correct": true
+  },
+  {
+   "group": "b0c242ce6c6e596f903e2130e73afe0d843cd084ba6a003ccdb52772d7a60b7d",
+   "raw_probability": 0.8765329524347759,
+   "correct": true
+  },
+  {
+   "group": "d7367ab77f7a759fcd02ef834ef0e850f62d9b9adbe1cfaebe201fb55ae5d22f",
+   "raw_probability": 0.9137258055040833,
+   "correct": true
+  },
+  {
+   "group": "d7367ab77f7a759fcd02ef834ef0e850f62d9b9adbe1cfaebe201fb55ae5d22f",
+   "raw_probability": 0.9137258055040833,
+   "correct": true
+  },
+  {
+   "group": "1416e901d80cf70f4c6ca8d04a4d93487e5b5eeec35abd9082b8df452c44f895",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "1416e901d80cf70f4c6ca8d04a4d93487e5b5eeec35abd9082b8df452c44f895",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "cbe3e93b0eb6877f01addb85011b9550192b8c9c1ee21a413fef1076e21eab77",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "0ca41dad23b7570ee75b1b751472caf6abf1d697a1b668f6a205034ff7f5f270",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "97ed41f9e330f1b7b9fe52b8678dad2c6edde9f199bd30051f6771af9b202d12",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "64ea2ef72d5b7ed6e5f8c63f5e0dc2c3afb6a01bb11981cfa572470966aef5ac",
+   "raw_probability": 0.8765329524347759,
+   "correct": true
+  },
+  {
+   "group": "84c4e6d055875ff3583477553fb2112b1eb2610d4ac8fc606271911d3b53c913",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "84c4e6d055875ff3583477553fb2112b1eb2610d4ac8fc606271911d3b53c913",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "84c4e6d055875ff3583477553fb2112b1eb2610d4ac8fc606271911d3b53c913",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "84c4e6d055875ff3583477553fb2112b1eb2610d4ac8fc606271911d3b53c913",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "84c4e6d055875ff3583477553fb2112b1eb2610d4ac8fc606271911d3b53c913",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "84c4e6d055875ff3583477553fb2112b1eb2610d4ac8fc606271911d3b53c913",
+   "raw_probability": 0.9404756340234984,
+   "correct": true
+  },
+  {
+   "group": "f3baeb2e203fe5fb071e817350135a6fa68db85fa3180470b7f37f58a0b63c02",
+   "raw_probability": 0.8716022145476148,
+   "correct": true
+  },
+  {
+   "group": "6e018883ba2ed2647d50f0cf20ebfeff26c6914248d0820929ef1a281a269b70",
+   "raw_probability": 0.8765329524347759,
+   "correct": true
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+From: billing@glassharbor.example
+To: accounts@cedargrove.example
+Date: Fri, 18 Jan 2036 12:00:00 +0000
+Subject: Invoice FEE-AGAIN
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8436378290586239630=="
+
+--===============8436378290586239630==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice FEE-AGAIN.
+
+--===============8436378290586239630==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="FEE-AGAIN.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCA0MjAvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZNNitwwEIX3fQqfwCPVrwpCFoFsZhfwLmQT2b0LIYHcP6/k7mEaNQnGtiyVvqp6T778unza
+LnUpuOpCurQSq4os24/lpf/883tpy3Zdvn4Qt27V2ZmKNIzIyK5OVFQwrnZgreSMCyK6iwkdH79t
+r4/0shJX8ZkfIJhdLYxNQTBRUdoFwbhDJpZHWaO2mFEMzOFnWTzKcWm0czBNkFZXKyb/rccEPUuO
+mLgwswFYuOJZuU1Yp5WC24wV13/g8klPcEZrtErPenWF5GRqB3oN2KHKIhNBeTVr/oTQ0eKRlXiH
+UqndqCsthYVZqTqDTRZeUHOkurfoBsNzNQ2rCqnPeS1Dtu9YK+97HXv6IN++tEKPPDzgwrG4zWY3
+kc6NL3rYX23PrLln6lJkZTWamoRPt+RiZwkn0MxOO0ZLilR50oQlFImkD3cLF+ojNiD1OFBv+/bz
+qFmjPAv9JI0VyIU/piNOHuL63aLcMdgFstIwgVNiyNEziokeMlj3mBpmXdOz+X+CKWE7aP0uHO3P
+33dt3vfib/nP0cj7ebt8ufwF9N/0pwplbmRzdHJlYW0KZW5kb2JqCgp4cmVmCjAgNwowMDAwMDAw
+MDAwIDY1NTM1IGYgCjAwMDAwMDAwNDIgMDAwMDAgbiAKMDAwMDAwMDEyMCAwMDAwMCBuIAowMDAw
+MDAwMTcyIDAwMDAwIG4gCjAwMDAwMDAyMTMgMDAwMDAgbiAKMDAwMDAwMDMyMCAwMDAwMCBuIAow
+MDAwMDAwNDA3IDAwMDAwIG4gCgp0cmFpbGVyCjw8L1NpemUgNy9Sb290IDEgMCBSL0lEWzw2M0Mz
+QUM2QkMyODU1QUMyQkZDMkI5MkZDMkI3QzM5Qz48MjEzOTkzQzI2RUIzREMyQTUzOTZEOUYxNUY4
+NjVGQTQ+XT4+CnN0YXJ0eHJlZgo4OTYKJSVFT0YK
+
+--===============8436378290586239630==--

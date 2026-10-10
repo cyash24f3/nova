@@ -1,0 +1,42 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Fri, 06 Jan 2034 12:00:00 +0000
+Subject: Invoice CB-M2
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8634025069391364576=="
+
+--===============8634025069391364576==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice CB-M2.
+
+--===============8634025069391364576==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="CB-M2.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzNzIvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjarVLLSsUwEN33K/IFMZlnAuJCcONO6E5caB87EQX/35m05V7NRTdSaGeSznklw/twOw45JHty
+AA4l1chEYXwNV9Pb50coYVzD4zVVWVRklSooDImQAGaaEW6exvvvCCkCZtIeA21+UVKQLKjkKDCj
+Yv6JoTXFmkv9U4aQZCWvEDAhmqrZvrm9pYMtOYrN9LCk/Auc2BuwdHAKESqWC0aVFcwmy2JGKyRm
+RqIOQCDWkuGCz8kcLi5EJ4/JHDdZFtwi1ISyomGDVE0muXq029+MUnxVZudvMWe2z76bWnYvpjCd
+G248U8PfO84WSnYEQyN30VbdU3XU1sG3+WycqzbWzitjFCnae7XT2l3Sysi0c7hDkElrS0JNKxqX
+p1p9p/Wr4qGEgJ63C7n1F+7DvkOL8YBd8gIzOye3epvatVi2xXM9Vm06ndedO6KILNCbO0hnOwSr
+qWxHKNNhyw+idfLfVk6iTzjAp7qZuBuHh+ELaTvpfgplbmRzdHJlYW0KZW5kb2JqCgp4cmVmCjAg
+NwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNDIgMDAwMDAgbiAKMDAwMDAwMDEyMCAwMDAw
+MCBuIAowMDAwMDAwMTcyIDAwMDAwIG4gCjAwMDAwMDAyMTMgMDAwMDAgbiAKMDAwMDAwMDMyMCAw
+MDAwMCBuIAowMDAwMDAwNDA3IDAwMDAwIG4gCgp0cmFpbGVyCjw8L1NpemUgNy9Sb290IDEgMCBS
+L0lEWzw0QkMyODkyNjdDMUVDMkEwQzJBMkMyQjg2RkMyQTRDMj48MDM0NzM4QkZGMTFFQjA1QzY4
+RjYzM0NDOUMyMUFERkE+XT4+CnN0YXJ0eHJlZgo4NDgKJSVFT0YK
+
+--===============8634025069391364576==--

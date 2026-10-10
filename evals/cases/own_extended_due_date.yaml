@@ -1,0 +1,29 @@
+name: extended due date
+mailbox: evals/mailboxes/compounding_extension
+as_of: '2034-04-10'
+mode: supervised
+expect:
+  key:
+    class: late_fee_not_owed
+    invoice_id: FEE-200
+  verdict: finding
+  amount_usd: '2.00'
+  action: draft:dispute
+  deadline: null
+checks:
+- key:
+    class: late_fee_not_owed
+    invoice_id: FEE-100
+  verdict: finding
+  amount_usd: '2.88'
+  action: draft:dispute
+  deadline: null
+- key:
+    class: late_fee_not_owed
+    invoice_id: FEE-200
+  verdict: finding
+  amount_usd: '2.00'
+  action: draft:dispute
+  deadline: null
+why: The authorised extension precedes payment, so the USD 2 late fee is entirely
+  not owed.

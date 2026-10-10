@@ -1,0 +1,41 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Sun, 05 Feb 2034 12:00:00 +0000
+Subject: Invoice FB-200
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8598968350261493939=="
+
+--===============8598968350261493939==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice FB-200.
+
+--===============8598968350261493939==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="FB-200.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzMTcvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLPSsQwEMbvfYo8Qcz8T0A8CF68Cb2JF9vuTUTB93cy3V1WsyiFZpJ0fvN9M50+pvt5glT8
+gYSSamlZmNP8lm6W96/PVNN8SM+33HQz1YM2JRUsrIy4ElKhcvcyP/5klIwEbCOFnLAZGyooGTuH
+nGIEvxnWSm5Q279ClBWMexRiiNiBHsdbBmyFrJ4zYtnkD5yG1zrgDDM2qleMmhi6TdHNjTYsIkLM
+A0Axtwp4xefiDrcuxJbeJnccsrxxm/e+CxUjZ6M2Ky659dbuXwtp7ae69vrRZhBfjrclevfqCsul
+4aizBP+4E/CmQCc4jbuLOO2eWqfGDn/kg9c8WFQdvApl1WqjV4JTNpOEWtdHJ47fFQ1dHvnMva96
+nv66/1Bah/kHEdfr66niZf5+TuUc7eN+mKen6RsUfrcvCmVuZHN0cmVhbQplbmRvYmoKCnhyZWYK
+MCA3CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA0MiAwMDAwMCBuIAowMDAwMDAwMTIwIDAw
+MDAwIG4gCjAwMDAwMDAxNzIgMDAwMDAgbiAKMDAwMDAwMDIxMyAwMDAwMCBuIAowMDAwMDAwMzIw
+IDAwMDAwIG4gCjAwMDAwMDA0MDcgMDAwMDAgbiAKCnRyYWlsZXIKPDwvU2l6ZSA3L1Jvb3QgMSAw
+IFIvSURbPEMyQjAzRkMyOUY1NkMzQjgwRTIxMTA2REMyQjNDMjkyPjxFQTU5MTM1OTkwOUQzRjRD
+NTFERjY3NEI4NDgwMDA5Nz5dPj4Kc3RhcnR4cmVmCjc5MwolJUVPRgo=
+
+--===============8598968350261493939==--

@@ -1,0 +1,41 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Sun, 05 Feb 2034 12:00:00 +0000
+Subject: Invoice AUTH-300
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7300320097246680979=="
+
+--===============7300320097246680979==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice AUTH-300.
+
+--===============7300320097246680979==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="AUTH-300.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzMjEvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLLTsMwEEX3+Qp/QfC8bQmxQGLDDik7xIY03SEEEv/PtdNC21SgSPb4MWfuHWf4GO6ngVLG
+R4ktlVxHU03TW7qZ378+U0nTPj3favUl3PdeXdw4K5nhXuGdiGTJdy/T4zknjyyksSUJKEtosJNL
+KFgCSghdMqLmsVKp/4pxdQptkTDEiCiAiPtoG2yh0ZGzxWrYHzjHyFI2uOCRq5QrRsOCYdN8gdHK
+GS0T1Q3AeayF+IrPGQ6XJiTm1iY47rLQuMW1C7UQsNlrZEiurbXrbRMvbdd3rX5vMxmmw2nuvXuF
+wnxquNeZO/+wMkJTqBFA0+ai7zZPtVH7is/yCTX30atuvJqM7iW2XoWO2SrW1UKfHDk4y951IcKb
+o6/+8/q79YfycvFgshJ5d30+VjzNX/cl/0bdwcM0PA3fuuW3/QplbmRzdHJlYW0KZW5kb2JqCgp4
+cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNDIgMDAwMDAgbiAKMDAwMDAwMDEy
+MCAwMDAwMCBuIAowMDAwMDAwMTcyIDAwMDAwIG4gCjAwMDAwMDAyMTMgMDAwMDAgbiAKMDAwMDAw
+MDMyMCAwMDAwMCBuIAowMDAwMDAwNDA3IDAwMDAwIG4gCgp0cmFpbGVyCjw8L1NpemUgNy9Sb290
+IDEgMCBSL0lEWzxDMzlBMjFDMjk2MEQyNkMyOEFDMkJFQzNCNEMyQUQ1Nz48MjMzN0JBMDI1RUEz
+RDQyRTFGQzlCRDBFNkE4QkIyOUQ+XT4+CnN0YXJ0eHJlZgo3OTcKJSVFT0YK
+
+--===============7300320097246680979==--

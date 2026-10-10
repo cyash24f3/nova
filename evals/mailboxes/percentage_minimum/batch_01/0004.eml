@@ -1,0 +1,44 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Thu, 05 Jan 2034 12:00:00 +0000
+Subject: Invoice MARGIN-100
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============9066306059985564064=="
+
+--===============9066306059985564064==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice MARGIN-100.
+
+--===============9066306059985564064==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="MARGIN-100.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCA0NjMvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjarVS7rhQxDO33K+YLQuJnIiEKJBo6pOkQBTuPDqGLxP9jOzN775IVNKuVJslkfHyOfbyXl8vH
++VKmbL8yAU81t8RE0/xjerf8/P1rqtO8T1/fU5NNRXZpgsKQaaXCQEqNNlixYMb84dv8+R4rJ8BC
+OqKhIW1KClIElQwPDUWx/I2hLadWavsvISEpSr5DMDKIZIAZSzx5gK0licWMsKT8DzixJ2Ad4BQS
+NKwPhCormEyWzYQ2yMyMRAOAQGq1wAOdiyncnIguXiZTHLSscJtQEGVFwwZpmo1y89L2rxml+ltZ
+PX+UubAtx22O2l2NYX4rOPIsgX+cuFhRiiMYGrmKeOuamqPGCe7ii+XcNbIOWhmTSNVRq3WrR4e5
+bK1dpfQaqN0a1zjJmZeAvoN9f8Y+6P6hlzbaGczcFVbrwW6d8H2PKh7X9684wLf9qIIoIQuMIm7l
+JWSKMnvxrtEyspatrw16EnlEvqNe3lBH2JDH2VTk5G4aZ9MiDvMQ21S6iVjCxrfmd7txmPpszDNb
+ceiQ64l8xrnSQQlwsj+OMgo5HeIJeis43ORSFm0ndZuBEjPa/CbOu+Kz/dVXK131KR1d1/ch7tN8
++XL5A5NwRCMKZW5kc3RyZWFtCmVuZG9iagoKeHJlZgowIDcKMDAwMDAwMDAwMCA2NTUzNSBmIAow
+MDAwMDAwMDQyIDAwMDAwIG4gCjAwMDAwMDAxMjAgMDAwMDAgbiAKMDAwMDAwMDE3MiAwMDAwMCBu
+IAowMDAwMDAwMjEzIDAwMDAwIG4gCjAwMDAwMDAzMjAgMDAwMDAgbiAKMDAwMDAwMDQwNyAwMDAw
+MCBuIAoKdHJhaWxlcgo8PC9TaXplIDcvUm9vdCAxIDAgUi9JRFs8NUZDMkI5NTBDMzlFQzI5RkMy
+ODM1MDA3QzNBRDI3QzI+PEExMzc4Qjk4NTRENDNBODc2NTU0QzNEMkMwQ0VGMzMyPl0+PgpzdGFy
+dHhyZWYKOTM5CiUlRU9GCg==
+
+--===============9066306059985564064==--

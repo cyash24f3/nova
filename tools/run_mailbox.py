@@ -5,7 +5,8 @@
 
 It starts from an empty state folder, runs `ingest` on every batch_* folder in order, then one `report` on the last
 batch's date from <data>/batches.json (or --as-of). With --sheet it turns that report into answer_sheet.json with
-grader/make_sheet.py. Each step is a fresh process, as in the grader.
+grader/make_sheet.py. Each step is a fresh process, as in the grader. --resume keeps
+the existing state and valid extractions after a failed run.
 """
 from __future__ import annotations
 
@@ -46,12 +47,15 @@ def batch_dates(data: Path) -> dict[str, str]:
 
 
 def run(harness: str, mailbox: Path, as_of: str, mode: str, state: Path, timeout: float = 600.0,
-        feedback: dict[str, Path] | None = None, log=print) -> tuple[dict | None, list[str]]:
-    """Fresh state, ingest every batch (feedback after the batches it names), one report. -> (report, errors)."""
+        feedback: dict[str, Path] | None = None, log=print,
+        extraction_cache: Path | None = None, resume: bool = False) -> tuple[dict | None, list[str]]:
+    """Ingest every batch, then report; fresh state by default, preserved with resume."""
     cmd = harness_cmd(harness)
-    if state.exists():
+    if resume and not state.is_dir():
+        return None, [f"cannot resume: state folder {state} does not exist"]
+    if state.exists() and not resume:
         shutil.rmtree(state)
-    state.mkdir(parents=True)
+    state.mkdir(parents=True, exist_ok=True)
     errors = []
     batches = sorted(p for p in mailbox.glob("batch_*") if p.is_dir())
     if not batches:
@@ -67,7 +71,20 @@ def run(harness: str, mailbox: Path, as_of: str, mode: str, state: Path, timeout
             log(f"  feedback after {b.name}: exit {rc}")
             if rc != 0:
                 errors.append(f"feedback {fb} exited {rc}: {err.strip()[-400:]}")
+    if extraction_cache is not None:
+        target = state / "extractions"
+        target.mkdir(exist_ok=True)
+        for cached in extraction_cache.glob("*.json"):
+            shutil.copy2(cached, target / cached.name)
     rc, out, err = step(cmd, ["report", "--as-of", as_of, "--mode", mode, "--state-dir", str(state)], timeout)
+    if extraction_cache is not None:
+        extraction_cache.mkdir(parents=True, exist_ok=True)
+        for cached in (state / "extractions").glob("*.json"):
+            destination = extraction_cache / cached.name
+            if destination.exists() and destination.read_bytes() != cached.read_bytes():
+                errors.append(f"extraction cache disagrees for {cached.name}")
+            else:
+                shutil.copy2(cached, destination)
     log(f"  report --as-of {as_of} --mode {mode}: exit {rc}")
     if rc != 0:
         errors.append(f"report exited {rc}: {err.strip()[-400:]}")
@@ -88,6 +105,7 @@ def main(argv=None) -> int:
     ap.add_argument("--out", required=True, help="where to write the report.json")
     ap.add_argument("--sheet", help="also write the answer sheet here")
     ap.add_argument("--state-dir", help="default: out/state_<mailbox name>")
+    ap.add_argument("--resume", action="store_true", help="preserve the existing state and valid extraction caches")
     ap.add_argument("--timeout", type=float, default=600.0, help="seconds per step")
     a = ap.parse_args(argv)
     data = Path(a.data)
@@ -98,7 +116,7 @@ def main(argv=None) -> int:
         return 2
     state = Path(a.state_dir or f"out/state_{data.name}")
     print(f"running {a.harness} on {data} (report as of {as_of}, {a.mode})")
-    report, errors = run(a.harness, data, as_of, a.mode, state, a.timeout)
+    report, errors = run(a.harness, data, as_of, a.mode, state, a.timeout, resume=a.resume)
     for e in errors:
         print(f"harness error: {e}", file=sys.stderr)
     if report is None:

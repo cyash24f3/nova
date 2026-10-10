@@ -1,0 +1,39 @@
+name: glossary audit invoice_dates supervised
+mailbox: evals/mailboxes/glossary_audit
+as_of: '2036-01-10'
+mode: supervised
+expect: &id001
+  key:
+    class: duplicate
+    invoice_id: Z-LATER
+  verdict: finding
+  amount_usd: '20.00'
+  action: draft:dispute
+  deadline: null
+checks:
+- *id001
+- key:
+    class: duplicate
+    invoice_id: CLEAN-HOUSE-1
+  verdict: no_finding
+- key:
+    class: duplicate
+    invoice_id: CLEAN-HOUSE-2
+  verdict: no_finding
+- key:
+    class: late_fee_not_owed
+    invoice_id: FEE-FIRST
+  verdict: no_finding
+- key:
+    class: overcharge
+    invoice_id: FEB-CLEAN
+  verdict: no_finding
+- key:
+    class: waived_but_billed
+    invoice_id: CLEAN-HOUSE-1
+  verdict: no_finding
+why: 'GLOSSARY.md: later invoice dates identify duplicates; different house AWBs stay
+  clean; late fees use actual principal payments and contractual months; numbered
+  Excel statements are invoices; all outbound classes share the inclusive USD 5000
+  approval threshold; AI-directed text has no authority; as_of excludes future arrivals.
+  Monthly rates follow the explicitly stated service period in this executed agreement.'

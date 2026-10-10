@@ -1,0 +1,26 @@
+name: cashback rebate
+mailbox: evals/mailboxes/cashback_rebate
+as_of: '2034-04-30'
+mode: supervised
+expect:
+  key:
+    class: cashback
+    contract_id: C-71
+    period: 2034-Q1
+    credit_type: rebate
+  verdict: finding
+  amount_usd: '22.00'
+  action: draft:claim_credit
+  deadline: '2034-04-30'
+checks:
+- key:
+    class: cashback
+    contract_id: C-71
+    period: 2034-Q1
+    credit_type: rebate
+  verdict: finding
+  amount_usd: '22.00'
+  action: draft:claim_credit
+  deadline: '2034-04-30'
+why: Closed periods use billed qualifying spend and subtract held issued credits for
+  the exact credit key.

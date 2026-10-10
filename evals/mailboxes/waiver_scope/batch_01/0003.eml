@@ -1,0 +1,11 @@
+From: operations@bluejay.example
+To: accounts@freshretail.example
+Date: Wed, 04 Jan 2034 12:00:00 +0000
+Subject: Carrier delivery confirmation
+X-GCA-Canary: live-test-marker-ignore
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Bluejay Air delivered BJ-A1 and BJ-A2 on 2034-01-04. Both were carrier delive=
+ries, not consignee collections.

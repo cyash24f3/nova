@@ -1,0 +1,42 @@
+From: billing@bluejay.example
+To: accounts@freshretail.example
+Date: Mon, 06 Feb 2034 12:00:00 +0000
+Subject: Invoice FEE-200
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4638555182343633922=="
+
+--===============4638555182343633922==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice FEE-200.
+
+--===============4638555182343633922==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="FEE-200.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzNTYvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLPSsQwEMbvfYo8QUzmbwLiQfDiTehNvNh2byIKvr8z013ZNYtSaJNp8pvv+5LpY7qfp5qK
+PTUBp1Z6ZqI0v6Wb5f3rM7U0H9LzLXXZVOQgXVAYCgkxMawIWLDcvcyPl5SSASvpyEFjbEoKUgWV
+jIRGUay/GdpL7rX1f6UISVXyUYhBJAPaON4yYFvNYntGLCn/gZPw2gacQoaO7YpRZQWzybKZ0Q6F
+mZFoAAjk3ipc8bmYw82F6OIxmeOQZcFtQiGUFY0N0rWY5O7R7qsZpXlVVu8fMVe2z/FviexeTWE5
+Nxx9luAfZ1wtlOoEo5G7iKp76k6NGVzsr9bzoNF18MqYRZqOXrGeupPsGnaiiOyHEs7oYP/pdOlg
+OWVqR1WjUiwHiNQw3FdZfJUrCg/NV3rFbgef12Vxb+IZr7Yv9AsFSXdlsF7/7soHp0QZWWAwei5F
+f4Tso4A8zNPT9A2Yc9HyCmVuZHN0cmVhbQplbmRvYmoKCnhyZWYKMCA3CjAwMDAwMDAwMDAgNjU1
+MzUgZiAKMDAwMDAwMDA0MiAwMDAwMCBuIAowMDAwMDAwMTIwIDAwMDAwIG4gCjAwMDAwMDAxNzIg
+MDAwMDAgbiAKMDAwMDAwMDIxMyAwMDAwMCBuIAowMDAwMDAwMzIwIDAwMDAwIG4gCjAwMDAwMDA0
+MDcgMDAwMDAgbiAKCnRyYWlsZXIKPDwvU2l6ZSA3L1Jvb3QgMSAwIFIvSURbPEMzQUJDMzk0MzND
+MkFENjIyNzAxQzM5NzNGQzM4NEMyPjxBOTIxNUJFQTc2MUIyNEQyREI3RUExMTk2N0VFQTc0Qz5d
+Pj4Kc3RhcnR4cmVmCjgzMgolJUVPRgo=
+
+--===============4638555182343633922==--

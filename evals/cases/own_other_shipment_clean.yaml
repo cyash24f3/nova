@@ -1,0 +1,26 @@
+name: other shipment clean
+mailbox: evals/mailboxes/waiver_scope
+as_of: '2034-01-10'
+mode: supervised
+expect:
+  key:
+    class: waived_but_billed
+    invoice_id: WAIVER-200
+  action: none
+  amount_usd: null
+  verdict: no_finding
+checks:
+- key:
+    class: waived_but_billed
+    invoice_id: WAIVER-100
+  verdict: finding
+  amount_usd: '20.00'
+  action: draft:dispute
+  deadline: null
+- key:
+    class: waived_but_billed
+    invoice_id: WAIVER-200
+  action: none
+  amount_usd: null
+  verdict: no_finding
+why: The waiver explicitly names only BJ-A1 and WAIVER-100; WAIVER-200 stays clean.

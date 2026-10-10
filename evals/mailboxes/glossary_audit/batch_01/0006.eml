@@ -1,0 +1,42 @@
+From: billing@glassharbor.example
+To: accounts@cedargrove.example
+Date: Wed, 09 Jan 2036 12:00:00 +0000
+Subject: Invoice CLEAN-HOUSE-2
+X-GCA-Canary: live-test-marker-ignore
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2231718785676494305=="
+
+--===============2231718785676494305==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Attached: Invoice CLEAN-HOUSE-2.
+
+--===============2231718785676494305==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="CLEAN-HOUSE-2.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjcKJcK1wrYKJSBXcml0dGVuIGJ5IE11UERGIDEuMjguMgoKMSAwIG9iago8PC9UeXBl
+L0NhdGFsb2cvUGFnZXMgMiAwIFIvSW5mbzw8L1Byb2R1Y2VyKE11UERGIDEuMjguMik+Pj4+CmVu
+ZG9iagoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1s0IDAgUl0+PgplbmRvYmoK
+CjMgMCBvYmoKPDwvRm9udDw8L2NvdXIgNSAwIFI+Pj4+CmVuZG9iagoKNCAwIG9iago8PC9UeXBl
+L1BhZ2UvTWVkaWFCb3hbMCAwIDU5NSA4NDJdL1JvdGF0ZSAwL1Jlc291cmNlcyAzIDAgUi9QYXJl
+bnQgMiAwIFIvQ29udGVudHNbNiAwIFJdPj4KZW5kb2JqCgo1IDAgb2JqCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1R5cGUxL0Jhc2VGb250L0NvdXJpZXIvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4K
+ZW5kb2JqCgo2IDAgb2JqCjw8L0xlbmd0aCAzNjcvRmlsdGVyL0ZsYXRlRGVjb2RlPj4Kc3RyZWFt
+CnjahZLNSsUwEIX3fYo8QUzmNwFxIbhxJ3Qnbm7auxNR8P2dSavca4pSaKf5+TLnnEzv0/085ZDs
+yQE4lFQjE4X5Ndy0t8+PUMJ8Ds+3pNIkKypComIVCMhZARKT1VlWm0s+omQrmpIQrHcv8+M1PUXA
+TDryqxFEzlIFhY2A1Igp0woLFTozMxLDgvCbqTXFmksdkWi4Vbf2sLelVAxRDyAlR0lC//YlZNrJ
+KwRMiCgGTJj7uw5YhQgVy4gl5T9w/gYsA04g1pLhSKuyWQ/CsprWarG4YTQQGKNI0QNCM4mrd6LN
+7TfJvS+P1qL0TlnR2CBVk/Vc3d19dbHgfdaDy2xWb+Ocum0nm0uXWvue1sn7H2fzwy+RcS2xuo+6
+murJ9T+42p9l8VN9z6CSKCILDCItpw1ld4nQv2ZYt+7n2E0idyPdEN2P61eHEHdpB+nvM35rGZlg
+MSO4V9uOjGmr5PRNvaR1EQ/z9DR9AX8mzwUKZW5kc3RyZWFtCmVuZG9iagoKeHJlZgowIDcKMDAw
+MDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDQyIDAwMDAwIG4gCjAwMDAwMDAxMjAgMDAwMDAgbiAK
+MDAwMDAwMDE3MiAwMDAwMCBuIAowMDAwMDAwMjEzIDAwMDAwIG4gCjAwMDAwMDAzMjAgMDAwMDAg
+biAKMDAwMDAwMDQwNyAwMDAwMCBuIAoKdHJhaWxlcgo8PC9TaXplIDcvUm9vdCAxIDAgUi9JRFs8
+MDQyNzFDMjkyRDc1QzM4RjNBQzI4QzcxNjJDMkEyQzI+PDVFRERGRjNBRTg4MzMxQ0U4QkUyNjND
+OTIxRkM5Qjc0Pl0+PgpzdGFydHhyZWYKODQzCiUlRU9GCg==
+
+--===============2231718785676494305==--

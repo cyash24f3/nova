@@ -1,0 +1,22 @@
+name: conditional waiver
+mailbox: evals/mailboxes/waiver_scope
+as_of: '2034-01-10'
+mode: supervised
+expect:
+  key:
+    class: waived_but_billed
+    invoice_id: WAIVER-100
+  verdict: finding
+  amount_usd: '20.00'
+  action: draft:dispute
+  deadline: null
+checks:
+- key:
+    class: waived_but_billed
+    invoice_id: WAIVER-100
+  verdict: finding
+  amount_usd: '20.00'
+  action: draft:dispute
+  deadline: null
+why: BJ-A1's one-off USD 20 waiver applies because the AP register proves payment
+  before its condition deadline.

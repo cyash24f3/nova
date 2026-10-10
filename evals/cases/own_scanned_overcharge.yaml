@@ -1,0 +1,20 @@
+name: scanned overcharge
+mailbox: evals/mailboxes/scanned_overcharge
+as_of: '2034-01-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: OCR-600
+  verdict: finding
+  amount_usd: '6.00'
+  action: draft:dispute
+checks:
+- key:
+    class: overcharge
+    invoice_id: OCR-600
+  verdict: finding
+  amount_usd: '6.00'
+  action: draft:dispute
+why: The reordered invoice uses USD 2/kg; 10 kg costs 20 (or the explicit 30 minimum).
+  Rasterised cases contain no PDF text layer.

@@ -1,0 +1,220 @@
+{
+  "scale": 1.0,
+  "bias": 0.3850211739423176,
+  "accepted": true,
+  "method": "regularized_intercept",
+  "schema_version": "1.0",
+  "feature_model": "evidence-v2",
+  "regularization": 4.0,
+  "observations": 18,
+  "groups": 10,
+  "correct": 18,
+  "incorrect": 0,
+  "validation": {
+    "method": "grouped_cross_validation",
+    "folds": [
+      {
+        "training_groups": 8,
+        "held_out_groups": 2,
+        "training_items": 14,
+        "held_out_items": 4
+      },
+      {
+        "training_groups": 8,
+        "held_out_groups": 2,
+        "training_items": 15,
+        "held_out_items": 3
+      },
+      {
+        "training_groups": 8,
+        "held_out_groups": 2,
+        "training_items": 15,
+        "held_out_items": 3
+      },
+      {
+        "training_groups": 8,
+        "held_out_groups": 2,
+        "training_items": 13,
+        "held_out_items": 5
+      },
+      {
+        "training_groups": 8,
+        "held_out_groups": 2,
+        "training_items": 15,
+        "held_out_items": 3
+      }
+    ],
+    "baseline": {
+      "model": "evidence-v2",
+      "items_scored": 18,
+      "correct": 18,
+      "incorrect": 0,
+      "brier": 0.018784,
+      "auroc": null,
+      "reliability_bins": [
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 2,
+          "mean_confidence": 0.702661,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 9,
+          "mean_confidence": 0.882674,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 7,
+          "mean_confidence": 0.929011,
+          "accuracy": 1.0
+        }
+      ],
+      "auroc_note": "Requires both correct and incorrect reported items."
+    },
+    "calibrated": {
+      "model": "evidence-v2",
+      "items_scored": 18,
+      "correct": 18,
+      "incorrect": 0,
+      "brier": 0.011524,
+      "auroc": null,
+      "reliability_bins": [
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 2,
+          "mean_confidence": 0.757827,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 16,
+          "mean_confidence": 0.927778,
+          "accuracy": 1.0
+        }
+      ],
+      "auroc_note": "Requires both correct and incorrect reported items."
+    }
+  },
+  "provenance": {
+    "source": "saved_own_live_checks",
+    "api_calls": 0,
+    "reports": [
+      {
+        "case": "accessorial_fx",
+        "report_sha256": "cdf1861f197397af8d69049540ffb784775153b8500178fecbf19b4451abfe24",
+        "scored_items": 0,
+        "skipped_without_factors": 1
+      },
+      {
+        "case": "percentage_minimum",
+        "report_sha256": "a346df6f4a30ec62b39fcf4be04a69a0e0a0edb815bbb596e2b821f5e865c88b",
+        "scored_items": 0,
+        "skipped_without_factors": 1
+      },
+      {
+        "case": "payment_risk",
+        "report_sha256": "aef52a9dc51e94ab48b75be70d71f0fafe6a5b350f1c52f7c4ff51bb4000426b",
+        "scored_items": 0,
+        "skipped_without_factors": 2
+      },
+      {
+        "case": "compounding_extension",
+        "report_sha256": "cdb4958f9f509dae238b1f4b416d490406db98ccc6c1ee5397a9350634b3455e",
+        "scored_items": 0,
+        "skipped_without_factors": 2
+      },
+      {
+        "case": "credit_rebill",
+        "report_sha256": "b4cd5fafcbd993e5f723ce5bbb2a91bf7401e7b9d58b21c8223783800c12d028",
+        "scored_items": 0,
+        "skipped_without_factors": 1
+      },
+      {
+        "case": "waiver_scope",
+        "report_sha256": "13522c22ac5afc35d48696f0c9d65bdff78fd9b90d347beb10b0ef705e4f8cd8",
+        "scored_items": 0,
+        "skipped_without_factors": 1
+      },
+      {
+        "case": "missing_fx",
+        "report_sha256": "b47e31301a8e8bdbf615dc5632ae200b4d042fadf51e78687bc27207f0499fd1",
+        "scored_items": 0,
+        "skipped_without_factors": 1
+      },
+      {
+        "case": "cashback_rebate",
+        "report_sha256": "17b1419f4e447cd0255ef8ac27282ff94221604e0bb5cd0b4d122b61164d2f88",
+        "scored_items": 1,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "cashback_margin_annual",
+        "report_sha256": "f1e152a41b0afcde88e7b65c2dcb10e21fa513825502f0e4e4da47f2dcc2a58a",
+        "scored_items": 2,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "scanned_overcharge",
+        "report_sha256": "950c05fd3093720762962bf21848a6d58baef9f77204e0373ab07e54162ecd90",
+        "scored_items": 1,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "scanned_minimum_clean",
+        "report_sha256": "de87dd65dbc70290a13974e4cc91d16c7025d1a0931ea002885f6bb34ec10cb3",
+        "scored_items": 0,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "reordered_invoice",
+        "report_sha256": "b0e5ec29f876e67b310060615a8419c82a7fa708b4a77c462fee3d084176a69a",
+        "scored_items": 1,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "feedback_learning",
+        "report_sha256": "91a035ca4f08d84ec69141101172a804224b9efe73617fc8e5aa8d4f3344d2c7",
+        "scored_items": 2,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "feedback_rates",
+        "report_sha256": "540cabd71f654aed7dcb53834e35407036a5602c11f7ccf60f50bb325aa68b75",
+        "scored_items": 2,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "feedback_authority",
+        "report_sha256": "500e88d04f06fa222f8d9de40817d5b998ab7341f845c38606172d1956b5d525",
+        "scored_items": 4,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "authority_precedence",
+        "report_sha256": "43f01c2141511abae028e57a6786defa58ea8d4215f2143e56e99b53d76c314e",
+        "scored_items": 2,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "unranked_conflict",
+        "report_sha256": "8fd99a0274de2b08efd40c363c7e3c2db0d394db737bd6b93a53abb8e3ad02ee",
+        "scored_items": 1,
+        "skipped_without_factors": 0
+      },
+      {
+        "case": "report_revisions",
+        "report_sha256": "405b75422ebee5662d2b461f147974aa7ba31a9f8c525a12cea86a0c716472ea",
+        "scored_items": 2,
+        "skipped_without_factors": 0
+      }
+    ],
+    "observations_sha256": "87f39d1872c07c5ed51ba4e9f66e99ea112bc59a7128cf320541da2f0f802b76"
+  }
+}

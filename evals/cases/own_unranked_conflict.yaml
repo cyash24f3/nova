@@ -1,0 +1,27 @@
+name: unranked conflict
+mailbox: evals/mailboxes/unranked_conflict
+as_of: '2034-01-10'
+mode: supervised
+expect:
+  key:
+    class: overcharge
+    invoice_id: AUTH-RATE-100
+  verdict: conflict
+  amount_usd: null
+  action: escalate
+  deadline: null
+  amount_range: &id001
+  - '0.00'
+  - '11.00'
+checks:
+- key:
+    class: overcharge
+    invoice_id: AUTH-RATE-100
+  verdict: conflict
+  amount_usd: null
+  action: escalate
+  deadline: null
+  amount_range: *id001
+why: Only original binding instruments in force on pickup count; contract precedence
+  ranks them, and any unranked alternatives include the correct dependent fuel in
+  their USD range.
