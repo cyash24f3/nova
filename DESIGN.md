@@ -72,16 +72,10 @@ extractions receive one correction attempt, then fail explicitly rather than pub
 
 ## Cost
 
-The configured model is `claude-haiku-5-5`, high effort. Published standard rates on 11 October 2026 are USD 0.10/M
-input and 0.50/M output tokens for prompts up to 100,000 tokens
-([pricing](https://platform.claude.com/docs/en/about-claude/pricing)). For planning, assume three requests per document,
-4,000 input and 1,500 billed output tokens per request, including reasoning: 1,000 documents cost about USD 3.45.
-Allowing twice that workload gives USD 6.90. These are estimates; actual usage counters are not persisted, and repairs,
-schema splits, long prompts, and provider pricing can increase cost.
-
-A saved fresh live check processed 12 email/attachment documents in 201.05 seconds, including staged reports and
-replay: linear extrapolation gives 4.7 hours per 1,000, not a measured benchmark. Eight API slots bound concurrency.
-Valid cached replay and local OCR incur no model charges.
+The configured model is `claude-haiku-5-5`, high effort. Reported billing totals across all Nova API development,
+debugging and testing are 18,634,979 input tokens, 5,558,647 output tokens, and USD 4.64 spent: 24,193,626 tokens
+combined. This includes repeated runs. A corresponding document count is unavailable, so these totals are not a
+measured cost per 1,000 documents.
 
 ## What I'd do next
 

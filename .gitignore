@@ -1,6 +1,7 @@
 .venv/
 .state/
-out/
+out/*
+!out/exam_report.json
 __pycache__/
 .env
 .env.*
