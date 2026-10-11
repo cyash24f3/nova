@@ -77,6 +77,15 @@ debugging and testing are 18,634,979 input tokens, 5,558,647 output tokens, and 
 combined. This includes repeated runs. A corresponding document count is unavailable, so these totals are not a
 measured cost per 1,000 documents.
 
+Planning estimate for 1,000 new documents: assume an average of 20,000 input and 5,000 output tokens per document,
+including prompts, schemas, classification and applicable extraction passes. At the
+[Anthropic prices checked on 11 October 2026](https://platform.claude.com/docs/en/about-claude/pricing),
+Haiku 5.5 costs USD 0.10 per million input tokens and USD 0.50 per million output tokens for requests with at most
+100,000 prompt tokens. That gives `(20 million x 0.10) + (5 million x 0.50) = USD 4.50`;
+budget about USD 7 with a 50% retry allowance. This is an assumption-based API estimate, not a measured benchmark.
+Larger prompts use five times these rates. Matching validated extraction caches incur no new model charges;
+local OCR and computation are excluded from the API estimate. Hosting costs are also excluded.
+
 ## What I'd do next
 
 Priorities would be persisting actual usage and latency, benchmarking larger mailboxes,

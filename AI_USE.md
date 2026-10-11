@@ -4,7 +4,7 @@
 
 I used Codex, configured as `gpt-6.1-sol` with `xhigh` for building.
 The submitted harness uses Anthropic Claude, configured as `claude-haiku-5-5` with
-high effort
+high effort.
 
 ## How you worked with them
 
@@ -38,3 +38,15 @@ the implementation.
 - [Original conversation and tool activity](ai_log/conversation_with_tools.html):
   the supplied export, copied byte for byte. It contains 1,835 records and ends on
   10 October 2026 at 22:44:46 IST.
+
+To read the log:
+
+1. Sign in to GitHub using an account with access to this private repository.
+2. Follow the original conversation link above to open the HTML file's GitHub page.
+3. Use **Download raw file** to save `conversation_with_tools.html`. Keep the `.html` extension.
+4. Open the saved file in Chrome, Firefox, Safari, or another browser. GitHub's file page does not run the viewer.
+
+The viewer contains its own data and needs no API key, installation, or network connection. It offers search,
+message/tool filters, expandable entries, and access to each original exported record. The file is about 26 MB;
+GitHub may omit its source preview, but the file remains downloadable. Earlier machine-specific paths inside
+conversation records are historical text, rather than links needed to use the viewer.

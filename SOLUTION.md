@@ -7,7 +7,7 @@ authority, date and action rules in Python. State persists between CLI processes
 
 Use Python 3.11 or newer; development and testing used Python 3.12.13. From the repository root:
 
-```ba
+```bash
 make setup
 source .venv/bin/activate
 ```
@@ -47,7 +47,7 @@ Additional checks are:
 python -m unittest discover -s tests
 python evals/run_evals.py --cases evals/audit_cases \
   --cache-dir out/state_glossary_audit/extractions \
-  --out out/final_rules_audit/live_results.json
+  --out out/glossary_audit_results.json
 ```
 
 Extraction caches include the source, request, prompt, schema, model and effort in their identity. A repeated report
@@ -78,10 +78,12 @@ Verified results are:
 | Check | Result | Record |
 |---|---|---|
 | Saved live practice run, both modes | 99.71/100; all hard gates clear | `report_card.json`, `report_card.txt` |
-| Final-code practice replay with API blocked | 99.95/100; all answer-sheet rows match | `out/final_rules_audit/practice/card.json` |
 | Main eval set: 25 own cases and two samples | 27/27 pass using validated extraction caches | `evals/results.json` |
-| Additional glossary audit, both modes | 8/8 pass with fresh API extractions, then 8/8 with API blocked | `out/final_rules_audit/live_results.json`, `out/final_rules_audit/new_cases_offline_replay.json` |
-| Unit and regression suite | 301/301 pass; includes controlled model outputs | `out/final_rules_audit/unit_tests.log` |
+
+Additional verification passed a final-code practice replay with API blocked (99.95/100, with all answer-sheet rows
+matching), eight glossary audit cases in both fresh-API and offline runs, and all 301 unit and regression tests.
+These are completed development checks; their separate local output files are not included in this submission.
+The commands above reproduce the unit suite and glossary cases; fresh glossary extraction requires API access.
 
 The exam report passes schema and citation validation. A fresh-state offline replay exactly reproduces the saved
 exam report and answer sheet, including USD 8,165.33 total savings. There is no public exam answer key, so this is
